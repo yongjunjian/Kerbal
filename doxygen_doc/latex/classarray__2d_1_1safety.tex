@@ -1,0 +1,79 @@
+\hypertarget{classarray__2d_1_1safety}{}\section{array\+\_\+2d\+:\+:safety$<$ Type $>$ 模板类 参考}
+\label{classarray__2d_1_1safety}\index{array\+\_\+2d\+::safety$<$ Type $>$@{array\+\_\+2d\+::safety$<$ Type $>$}}
+
+
+动态二维数组类的安全下标类  
+
+
+
+
+{\ttfamily \#include $<$array\+\_\+2d.\+hpp$>$}
+
+\subsection*{Public 成员函数}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classarray__2d_1_1safety_a4914000db358a170ae5c33ece147f75f}\label{classarray__2d_1_1safety_a4914000db358a170ae5c33ece147f75f}} 
+{\bfseries safety} (\hyperlink{classarray__2d_1_1_array__2d}{Array\+\_\+2d}$<$ Type $>$ $\ast$p\+\_\+to\+\_\+matrix, const int row\+\_\+point\+\_\+to)
+\item 
+\mbox{\Hypertarget{classarray__2d_1_1safety_ab346a0f8c8007b3edb58172a6e090ef6}\label{classarray__2d_1_1safety_ab346a0f8c8007b3edb58172a6e090ef6}} 
+{\bfseries safety} (const \hyperlink{classarray__2d_1_1_array__2d}{Array\+\_\+2d}$<$ Type $>$ $\ast$const p2, const int row)
+\item 
+\mbox{\Hypertarget{classarray__2d_1_1safety_a91ff9dc58dd512fb8c7dba7c9f092fc9}\label{classarray__2d_1_1safety_a91ff9dc58dd512fb8c7dba7c9f092fc9}} 
+bool {\bfseries is\+\_\+const} ()  throw ()
+\item 
+\mbox{\Hypertarget{classarray__2d_1_1safety_a9b89f0ad51d646134d6df0cbf9c80f03}\label{classarray__2d_1_1safety_a9b89f0ad51d646134d6df0cbf9c80f03}} 
+bool {\bfseries is\+\_\+const} () const  throw ()
+\item 
+\mbox{\Hypertarget{classarray__2d_1_1safety_a38e861e6933b9703929695dc2efbfabc}\label{classarray__2d_1_1safety_a38e861e6933b9703929695dc2efbfabc}} 
+Type \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (int row)  throw (std\+::out\+\_\+of\+\_\+range)
+\item 
+\mbox{\Hypertarget{classarray__2d_1_1safety_a0848dc10b3989d6b7522c4e22c84e6f5}\label{classarray__2d_1_1safety_a0848dc10b3989d6b7522c4e22c84e6f5}} 
+const Type \& {\bfseries operator\mbox{[}$\,$\mbox{]}} (int row) const  throw (std\+::out\+\_\+of\+\_\+range)
+\item 
+\mbox{\Hypertarget{classarray__2d_1_1safety_a82e6de1d53a4bf72c71ab3f284b4a44e}\label{classarray__2d_1_1safety_a82e6de1d53a4bf72c71ab3f284b4a44e}} 
+Type $\ast$ {\bfseries begin} ()
+\item 
+\mbox{\Hypertarget{classarray__2d_1_1safety_af961feb8ac1d6fc9d63e635606df1838}\label{classarray__2d_1_1safety_af961feb8ac1d6fc9d63e635606df1838}} 
+const Type $\ast$ {\bfseries begin} () const
+\item 
+\mbox{\Hypertarget{classarray__2d_1_1safety_a813f90461d559d594ecc090c6496ccd2}\label{classarray__2d_1_1safety_a813f90461d559d594ecc090c6496ccd2}} 
+Type $\ast$ {\bfseries end} ()
+\item 
+\mbox{\Hypertarget{classarray__2d_1_1safety_a850ef1405ec9a08b99a862b4a2c57c60}\label{classarray__2d_1_1safety_a850ef1405ec9a08b99a862b4a2c57c60}} 
+const Type $\ast$ {\bfseries end} () const
+\item 
+\mbox{\Hypertarget{classarray__2d_1_1safety_a877ff78ab131e52b0082f29ca819307c}\label{classarray__2d_1_1safety_a877ff78ab131e52b0082f29ca819307c}} 
+\hyperlink{classarray__2d_1_1safety}{safety}$<$ Type $>$ \& {\bfseries operator++} () const
+\item 
+\mbox{\Hypertarget{classarray__2d_1_1safety_a3d2466fa6ca80e7a7fe2e3bf13bd4cca}\label{classarray__2d_1_1safety_a3d2466fa6ca80e7a7fe2e3bf13bd4cca}} 
+bool {\bfseries operator!=} (const \hyperlink{classarray__2d_1_1safety}{safety}$<$ Type $>$ \&with) const  throw (std\+::invalid\+\_\+argument)
+\end{DoxyCompactItemize}
+\subsection*{Protected 属性}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classarray__2d_1_1safety_afdf823bf641c38b501fe89176c1bc0cd}\label{classarray__2d_1_1safety_afdf823bf641c38b501fe89176c1bc0cd}} 
+\hyperlink{classarray__2d_1_1_array__2d}{Array\+\_\+2d}$<$ Type $>$ $\ast$ {\bfseries p\+\_\+to\+\_\+matrix}
+\item 
+\mbox{\Hypertarget{classarray__2d_1_1safety_a8b3d7d7ad8172bc5afdfa0870787e366}\label{classarray__2d_1_1safety_a8b3d7d7ad8172bc5afdfa0870787e366}} 
+int {\bfseries row\+\_\+point\+\_\+to}
+\end{DoxyCompactItemize}
+
+
+\subsection{详细描述}
+\subsubsection*{template$<$class Type$>$\newline
+class array\+\_\+2d\+::safety$<$ Type $>$}
+
+动态二维数组类的安全下标类 
+
+\begin{DoxyAuthor}{作者}
+倪文卿 
+\end{DoxyAuthor}
+\begin{DoxyRemark}{备注}
+本类用来提供对动态二维数组\+Array\+\_\+2d类的下标运算的安全访问 
+\end{DoxyRemark}
+
+
+该类的文档由以下文件生成\+:\begin{DoxyCompactItemize}
+\item 
+src/kerbal/array\+\_\+2d.\+hpp\item 
+src/kerbal/array\+\_\+2d\+\_\+base.\+hpp\end{DoxyCompactItemize}

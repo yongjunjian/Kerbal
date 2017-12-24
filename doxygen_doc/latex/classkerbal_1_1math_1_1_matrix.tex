@@ -1,0 +1,776 @@
+\hypertarget{classkerbal_1_1math_1_1_matrix}{}\section{kerbal\+:\+:math\+:\+:Matrix类 参考}
+\label{classkerbal_1_1math_1_1_matrix}\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+
+
+矩阵类  
+
+
+
+
+{\ttfamily \#include $<$matrix.\+hpp$>$}
+
+类 kerbal\+:\+:math\+:\+:Matrix 继承关系图\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classkerbal_1_1math_1_1_matrix}
+\end{center}
+\end{figure}
+\subsection*{Public 类型}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71}{Frame} \{ \newline
+\hyperlink{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71a2ef25fdcf6ef827bf880416bbccb0122}{Fr\+\_\+\+Rt\+Matrix}, 
+\hyperlink{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71a0589c43464f4819e8208963d92b6c664}{Fr\+\_\+\+Rd\+Matrix}, 
+\hyperlink{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71aa0277b6e31fe0cf44b854581700e6edb}{Fr\+\_\+\+Det}, 
+\hyperlink{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71a3b38ac99caab77f29eed02c314db27bf}{Fr\+\_\+double}, 
+\newline
+\hyperlink{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71a57572d7e73fbd562375f1851ba6c31e9}{Fr\+\_\+\+Null}
+ \}\begin{DoxyCompactList}\small\item\em 矩阵的输出样式 \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+\subsection*{Public 成员函数}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a201ef9e1e51430d7a3cd6ca2093e9981}\label{classkerbal_1_1math_1_1_matrix_a201ef9e1e51430d7a3cd6ca2093e9981}} 
+\hyperlink{classkerbal_1_1math_1_1_matrix_a201ef9e1e51430d7a3cd6ca2093e9981}{Matrix} ()  throw ()
+\begin{DoxyCompactList}\small\item\em 构造一个 0 行 0 列的空矩阵 \end{DoxyCompactList}\item 
+\hyperlink{classkerbal_1_1math_1_1_matrix_a07582c4589d21d351350fce8459c10da}{Matrix} (const int \hyperlink{classarray__2d_1_1_array__2d_a17b90b53a8e0002452e96c2b7f74820b}{row}, const int \hyperlink{classarray__2d_1_1_array__2d_abdf56a1c0f22088353d9a32de9680d76}{column})
+\begin{DoxyCompactList}\small\item\em 构造一个 row 行 $\ast$ column 列 的零矩阵 \end{DoxyCompactList}\item 
+\hyperlink{classkerbal_1_1math_1_1_matrix_a17111be388a194c33c39946cb7548d79}{Matrix} (const int \hyperlink{classarray__2d_1_1_array__2d_a17b90b53a8e0002452e96c2b7f74820b}{row}, const int \hyperlink{classarray__2d_1_1_array__2d_abdf56a1c0f22088353d9a32de9680d76}{column}, const double \&val)
+\begin{DoxyCompactList}\small\item\em 构造一个 row 行 $\ast$ column 列 的矩阵, 矩阵中每个元素的初始值由参数 val 指定 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a4cf66d9295ca617254d1fc0d88c33245}\label{classkerbal_1_1math_1_1_matrix_a4cf66d9295ca617254d1fc0d88c33245}} 
+{\bfseries Matrix} (double($\ast$function)(), const int \hyperlink{classarray__2d_1_1_array__2d_a17b90b53a8e0002452e96c2b7f74820b}{row}, const int \hyperlink{classarray__2d_1_1_array__2d_abdf56a1c0f22088353d9a32de9680d76}{column}, bool para)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a627aae6f1eb7e9da770730cf75a62c75}\label{classkerbal_1_1math_1_1_matrix_a627aae6f1eb7e9da770730cf75a62c75}} 
+{\bfseries Matrix} (double($\ast$function)(int, int), const int \hyperlink{classarray__2d_1_1_array__2d_a17b90b53a8e0002452e96c2b7f74820b}{row}, const int \hyperlink{classarray__2d_1_1_array__2d_abdf56a1c0f22088353d9a32de9680d76}{column}, bool para)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a39f2605c9bd2a647f6f8a7b9dfff804a}\label{classkerbal_1_1math_1_1_matrix_a39f2605c9bd2a647f6f8a7b9dfff804a}} 
+{\footnotesize template$<$size\+\_\+t M, size\+\_\+t N$>$ }\\{\bfseries Matrix} (const double(\&src)\mbox{[}M\mbox{]}\mbox{[}N\mbox{]}, const int \hyperlink{classarray__2d_1_1_array__2d_a17b90b53a8e0002452e96c2b7f74820b}{row}, const int \hyperlink{classarray__2d_1_1_array__2d_abdf56a1c0f22088353d9a32de9680d76}{column})
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a2b2a8ad8af3e4738dc69a18e5b298577}\label{classkerbal_1_1math_1_1_matrix_a2b2a8ad8af3e4738dc69a18e5b298577}} 
+{\bfseries Matrix} (const double arr\mbox{[}$\,$\mbox{]}, int len, bool in\+\_\+a\+\_\+row=true)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_aae1f76133d4309d19cf020d413398d19}\label{classkerbal_1_1math_1_1_matrix_aae1f76133d4309d19cf020d413398d19}} 
+{\bfseries Matrix} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&src)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a444d0dcc6f6c0457b8ee3d9c095320ae}\label{classkerbal_1_1math_1_1_matrix_a444d0dcc6f6c0457b8ee3d9c095320ae}} 
+virtual \hyperlink{classkerbal_1_1math_1_1_matrix_a444d0dcc6f6c0457b8ee3d9c095320ae}{$\sim$\+Matrix} ()
+\begin{DoxyCompactList}\small\item\em 析构函数 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a80ea4536d92e0751092997062faaa445}\label{classkerbal_1_1math_1_1_matrix_a80ea4536d92e0751092997062faaa445}} 
+virtual void {\bfseries print} (\hyperlink{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71}{Frame} frame=\hyperlink{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71a2ef25fdcf6ef827bf880416bbccb0122}{Fr\+\_\+\+Rt\+Matrix}, bool print\+\_\+corner=true, std\+::ostream \&output=std\+::cout) const
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a0426bb22fd2d5e87b714c03c1a3c8aa4}\label{classkerbal_1_1math_1_1_matrix_a0426bb22fd2d5e87b714c03c1a3c8aa4}} 
+void {\bfseries save} (const std\+::string \&file\+\_\+name) const  throw (std\+::runtime\+\_\+error)
+\item 
+void \hyperlink{classkerbal_1_1math_1_1_matrix_a07d1c06f2a123d7a7366c49c8c884f03}{switch\+\_\+rows} (const int row1, const int row2)  throw (std\+::out\+\_\+of\+\_\+range)
+\begin{DoxyCompactList}\small\item\em 交换矩阵的两行 \end{DoxyCompactList}\item 
+void \hyperlink{classkerbal_1_1math_1_1_matrix_a47ee8c0afe98e4545233b10f7f7774e8}{switch\+\_\+columns} (const int column1, const int column2)  throw (std\+::out\+\_\+of\+\_\+range)
+\begin{DoxyCompactList}\small\item\em 交换矩阵的两列 \end{DoxyCompactList}\item 
+void \hyperlink{classkerbal_1_1math_1_1_matrix_add7ad7a55135e85d44437aaceb13ea02}{kmr} (const double k, const int row\+\_\+dest)  throw (std\+::out\+\_\+of\+\_\+range)
+\begin{DoxyCompactList}\small\item\em 令矩阵中指定行上的每一个元素均乘上系数 k \end{DoxyCompactList}\item 
+void \hyperlink{classkerbal_1_1math_1_1_matrix_aed63e5a9858d007ceaf95efb0f66c221}{kmr\+\_\+plus\+\_\+to\+\_\+another} (const double k, const int row\+\_\+from, const int row\+\_\+dest)  throw (std\+::out\+\_\+of\+\_\+range)
+\begin{DoxyCompactList}\small\item\em 将矩阵 row\+\_\+from 行的 k 倍加到 row\+\_\+dest 行上 \end{DoxyCompactList}\item 
+void \hyperlink{classkerbal_1_1math_1_1_matrix_aed36c6097e228052c76e437a4cb195b7}{kmc} (const double k, const int column\+\_\+dest)  throw (std\+::out\+\_\+of\+\_\+range)
+\begin{DoxyCompactList}\small\item\em 令矩阵中指定列上的每一个元素均乘上系数 k \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_aa7cc2a11d47aa71b7609c4e92cb86b1c}\label{classkerbal_1_1math_1_1_matrix_aa7cc2a11d47aa71b7609c4e92cb86b1c}} 
+void {\bfseries kmc\+\_\+plus\+\_\+to\+\_\+another} (const double k, const int column\+\_\+from, const int column\+\_\+dest)  throw (std\+::out\+\_\+of\+\_\+range)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_abceaa9468b6280a4d3dfd6fe34141ac1}\label{classkerbal_1_1math_1_1_matrix_abceaa9468b6280a4d3dfd6fe34141ac1}} 
+void {\bfseries do\+\_\+optimize\+\_\+rows} ()  throw (std\+::invalid\+\_\+argument)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a7289f2b36f95af690b62f11131854cf3}\label{classkerbal_1_1math_1_1_matrix_a7289f2b36f95af690b62f11131854cf3}} 
+double {\bfseries det} () const  throw (std\+::invalid\+\_\+argument)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_af05f82ae450547615242aa9249f48eb8}\label{classkerbal_1_1math_1_1_matrix_af05f82ae450547615242aa9249f48eb8}} 
+\hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} {\bfseries Adjugate\+\_\+matrix} () const  throw (std\+::invalid\+\_\+argument)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a261f7c5a383008954f0b806f8b25b152}\label{classkerbal_1_1math_1_1_matrix_a261f7c5a383008954f0b806f8b25b152}} 
+\hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} {\bfseries Inverse\+\_\+matrix} () const  throw (std\+::invalid\+\_\+argument)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_aa074455d62b7f76562b58626997e70df}\label{classkerbal_1_1math_1_1_matrix_aa074455d62b7f76562b58626997e70df}} 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} {\bfseries operator+} () const
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a0b2c1bd12d1064bebc2fa195f5c680d2}\label{classkerbal_1_1math_1_1_matrix_a0b2c1bd12d1064bebc2fa195f5c680d2}} 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} {\bfseries operator-\/} () const
+\item 
+\hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \& \hyperlink{classkerbal_1_1math_1_1_matrix_a2adadd6868dbd09192a77655dc54a580}{operator+=} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&with)  throw (std\+::invalid\+\_\+argument)
+\begin{DoxyCompactList}\small\item\em 令赋值运算符前的矩阵加上赋值运算符后的矩阵 \end{DoxyCompactList}\item 
+\hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \& \hyperlink{classkerbal_1_1math_1_1_matrix_a4fcc469526f1c13aab912278ba69dd85}{operator-\/=} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&with)  throw (std\+::invalid\+\_\+argument)
+\begin{DoxyCompactList}\small\item\em 令赋值运算符前的矩阵减去赋值运算符后的矩阵 \end{DoxyCompactList}\item 
+\hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \& \hyperlink{classkerbal_1_1math_1_1_matrix_a37786e33296ebea6c97d12d1e659a693}{operator$\ast$=} (double k)  throw ()
+\begin{DoxyCompactList}\small\item\em 令一个矩阵的每一个元素均乘以系数 k \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_ac29bf818dcb33bc853ce585fff476943}\label{classkerbal_1_1math_1_1_matrix_ac29bf818dcb33bc853ce585fff476943}} 
+\hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \& {\bfseries operator=} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&src)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_aba372953226341b1d4492d569e02cb97}\label{classkerbal_1_1math_1_1_matrix_aba372953226341b1d4492d569e02cb97}} 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} {\bfseries sub\+\_\+of} (int up, int down, int left, int right) const  throw (std\+::invalid\+\_\+argument, std\+::out\+\_\+of\+\_\+range)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a95cba7989eb6db03ffc3062b77380649}\label{classkerbal_1_1math_1_1_matrix_a95cba7989eb6db03ffc3062b77380649}} 
+void {\bfseries do\+\_\+transpose} ()
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a8c694cdf011ad8cae04c20b55ae24026}\label{classkerbal_1_1math_1_1_matrix_a8c694cdf011ad8cae04c20b55ae24026}} 
+void {\bfseries do\+\_\+cofactor} (const int row\+\_\+tar, const int column\+\_\+tar)  throw (std\+::out\+\_\+of\+\_\+range)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a06ed57fda8ee54bd37a22aa9acdb1497}\label{classkerbal_1_1math_1_1_matrix_a06ed57fda8ee54bd37a22aa9acdb1497}} 
+virtual void {\bfseries test\+\_\+row} (const int row\+\_\+test) const  throw (std\+::out\+\_\+of\+\_\+range)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a3e7f26fdef23c5e0e6bb60aea37db72f}\label{classkerbal_1_1math_1_1_matrix_a3e7f26fdef23c5e0e6bb60aea37db72f}} 
+virtual void {\bfseries test\+\_\+column} (const int column\+\_\+test) const  throw (std\+::out\+\_\+of\+\_\+range)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_ae7a03096165bb72e4c361476f02b2d23}\label{classkerbal_1_1math_1_1_matrix_ae7a03096165bb72e4c361476f02b2d23}} 
+void {\bfseries test\+\_\+square} () const  throw (std\+::invalid\+\_\+argument)
+\end{DoxyCompactItemize}
+\subsection*{静态 Public 成员函数}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a19d3d26c63d7598205a6d064b68a6bd4}\label{classkerbal_1_1math_1_1_matrix_a19d3d26c63d7598205a6d064b68a6bd4}} 
+static const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} {\bfseries load\+\_\+from} (const std\+::string \&file\+\_\+name)
+\end{DoxyCompactItemize}
+\subsection*{友元}
+\begin{DoxyCompactItemize}
+\item 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \hyperlink{classkerbal_1_1math_1_1_matrix_a68ca5b1d7d0aaf615a63771788562210}{operator+} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&A, const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&B)  throw (std\+::invalid\+\_\+argument)
+\begin{DoxyCompactList}\small\item\em 计算两个矩阵的加法 \end{DoxyCompactList}\item 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \hyperlink{classkerbal_1_1math_1_1_matrix_a4fc480fab44a4d6c69a6cf92f91522ad}{operator-\/} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&A, const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&B)  throw (std\+::invalid\+\_\+argument)
+\begin{DoxyCompactList}\small\item\em 计算两个矩阵的减法 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_ae4dae004adfcec267b060864b1fcfa41}\label{classkerbal_1_1math_1_1_matrix_ae4dae004adfcec267b060864b1fcfa41}} 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} {\bfseries operator$\ast$} (const double k, const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&A)  throw ()
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a2c961c7157712ed49125788e6bee2e23}\label{classkerbal_1_1math_1_1_matrix_a2c961c7157712ed49125788e6bee2e23}} 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} {\bfseries operator$\ast$} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&A, const double k)  throw ()
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a26be23966c1457aaa6ca7904f3388504}\label{classkerbal_1_1math_1_1_matrix_a26be23966c1457aaa6ca7904f3388504}} 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} {\bfseries operator$\ast$} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&A, const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&B)  throw (std\+::invalid\+\_\+argument)
+\item 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \hyperlink{classkerbal_1_1math_1_1_matrix_aef00278756b7155aa065aa0e2c206b91}{fma} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&A, const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&B, const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&C)  throw (std\+::invalid\+\_\+argument)
+\begin{DoxyCompactList}\small\item\em 计算 (A $\ast$ B) + C 的结果 \end{DoxyCompactList}\item 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \hyperlink{classkerbal_1_1math_1_1_matrix_a34aab263e821d766d31517e9d03a1aca}{dot\+\_\+product} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&A, const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&B)  throw (std\+::invalid\+\_\+argument)
+\begin{DoxyCompactList}\small\item\em 计算两个矩阵的点乘 \end{DoxyCompactList}\item 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \hyperlink{classkerbal_1_1math_1_1_matrix_af46d90e12227e9e1e8c8242cb2b0a93a}{operator$^\wedge$} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&A, const int n)  throw (std\+::invalid\+\_\+argument)
+\begin{DoxyCompactList}\small\item\em 计算一个矩阵的 n 次幂 \end{DoxyCompactList}\item 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \hyperlink{classkerbal_1_1math_1_1_matrix_a8b58a45223c7264d0e45d238f66b1eb5}{operator \&\&} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&A, const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&B)  throw (std\+::invalid\+\_\+argument)
+\begin{DoxyCompactList}\small\item\em 将两个矩阵按竖直方向连接 \end{DoxyCompactList}\item 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \hyperlink{classkerbal_1_1math_1_1_matrix_aaa58ea23f11a2f1ad42b487f9a6d0245}{operator$\vert$$\vert$} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&A, const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&B)  throw (std\+::invalid\+\_\+argument)
+\begin{DoxyCompactList}\small\item\em 将两个矩阵按水平方向连接 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_ad6baacfd0e9f61f34af177147b55939a}\label{classkerbal_1_1math_1_1_matrix_ad6baacfd0e9f61f34af177147b55939a}} 
+void {\bfseries operator$<$$<$=} (\hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&tar, \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&src)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a8b595740f508d34b7cff5e159b44bcc0}\label{classkerbal_1_1math_1_1_matrix_a8b595740f508d34b7cff5e159b44bcc0}} 
+{\footnotesize template$<$size\+\_\+t N$>$ }\\const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} {\bfseries cat} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix}(\&a)\mbox{[}N\mbox{]})  throw (std\+::invalid\+\_\+argument)
+\item 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \hyperlink{classkerbal_1_1math_1_1_matrix_a66d6a7eb6b57a6e5acb75ab8b4349471}{eye} (int n)
+\begin{DoxyCompactList}\small\item\em 返回一个 n 阶单位矩阵 \end{DoxyCompactList}\item 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \hyperlink{classkerbal_1_1math_1_1_matrix_a35bd334cc41142e574a3261853fd14d2}{pow} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&A, const int n)  throw (std\+::invalid\+\_\+argument)
+\begin{DoxyCompactList}\small\item\em 计算一个矩阵的 n 次幂 \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_ab5a14c5b61c616fa699113c704c046c4}\label{classkerbal_1_1math_1_1_matrix_ab5a14c5b61c616fa699113c704c046c4}} 
+double {\bfseries tr} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&src)  throw (std\+::invalid\+\_\+argument)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_aca59235f2426e023a982b2424c116a12}\label{classkerbal_1_1math_1_1_matrix_aca59235f2426e023a982b2424c116a12}} 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} {\bfseries transpose\+\_\+of} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&A)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a0e0f686216ed93f7a1c962006a0c7ff1}\label{classkerbal_1_1math_1_1_matrix_a0e0f686216ed93f7a1c962006a0c7ff1}} 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} {\bfseries cofactor\+\_\+of} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&A, const int x, const int y)  throw (std\+::out\+\_\+of\+\_\+range)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a17b7efc841868072cabb906fb2ee0a3a}\label{classkerbal_1_1math_1_1_matrix_a17b7efc841868072cabb906fb2ee0a3a}} 
+bool {\bfseries Matcmp} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&A, const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&B, double eps)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a6f53d61daeba794daa792db83f92a8e2}\label{classkerbal_1_1math_1_1_matrix_a6f53d61daeba794daa792db83f92a8e2}} 
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} {\bfseries conv2} (const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&core, const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&B, int size=0)
+\item 
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a13d83eac9b443b09ea698e9e9d0b3848}\label{classkerbal_1_1math_1_1_matrix_a13d83eac9b443b09ea698e9e9d0b3848}} 
+void {\bfseries std\+::swap} (\hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&a, \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&b)
+\end{DoxyCompactItemize}
+\subsection*{额外继承的成员函数}
+
+
+\subsection{详细描述}
+矩阵类 
+
+\begin{DoxyAuthor}{作者}
+倪文卿 
+\end{DoxyAuthor}
+
+
+\subsection{成员枚举类型说明}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71}\label{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!Frame@{Frame}}
+\index{Frame@{Frame}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{Frame}{Frame}}
+{\footnotesize\ttfamily enum \hyperlink{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71}{kerbal\+::math\+::\+Matrix\+::\+Frame}}
+
+
+
+矩阵的输出样式 
+
+\begin{DoxyEnumFields}{枚举值}
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Fr\+\_\+\+Rt\+Matrix@{Fr\+\_\+\+Rt\+Matrix}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!Fr\+\_\+\+Rt\+Matrix@{Fr\+\_\+\+Rt\+Matrix}}}\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71a2ef25fdcf6ef827bf880416bbccb0122}\label{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71a2ef25fdcf6ef827bf880416bbccb0122}} 
+Fr\+\_\+\+Rt\+Matrix&输出直角 Fr\+\_\+\+Rt\+Matrix \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Fr\+\_\+\+Rd\+Matrix@{Fr\+\_\+\+Rd\+Matrix}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!Fr\+\_\+\+Rd\+Matrix@{Fr\+\_\+\+Rd\+Matrix}}}\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71a0589c43464f4819e8208963d92b6c664}\label{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71a0589c43464f4819e8208963d92b6c664}} 
+Fr\+\_\+\+Rd\+Matrix&输出圆角 Fr\+\_\+\+Rd\+Matrix \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Fr\+\_\+\+Det@{Fr\+\_\+\+Det}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!Fr\+\_\+\+Det@{Fr\+\_\+\+Det}}}\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71aa0277b6e31fe0cf44b854581700e6edb}\label{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71aa0277b6e31fe0cf44b854581700e6edb}} 
+Fr\+\_\+\+Det&输出行列式 Fr\+\_\+\+Det \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Fr\+\_\+double@{Fr\+\_\+double}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!Fr\+\_\+double@{Fr\+\_\+double}}}\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71a3b38ac99caab77f29eed02c314db27bf}\label{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71a3b38ac99caab77f29eed02c314db27bf}} 
+Fr\+\_\+double&输出双竖线 Fr\+\_\+double \\
+\hline
+
+\raisebox{\heightof{T}}[0pt][0pt]{\index{Fr\+\_\+\+Null@{Fr\+\_\+\+Null}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!Fr\+\_\+\+Null@{Fr\+\_\+\+Null}}}\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71a57572d7e73fbd562375f1851ba6c31e9}\label{classkerbal_1_1math_1_1_matrix_a00dd9ef9c8b8c06f50eed7681f147f71a57572d7e73fbd562375f1851ba6c31e9}} 
+Fr\+\_\+\+Null&无边框 Fr\+\_\+\+Null \\
+\hline
+
+\end{DoxyEnumFields}
+
+
+\subsection{构造及析构函数说明}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a07582c4589d21d351350fce8459c10da}\label{classkerbal_1_1math_1_1_matrix_a07582c4589d21d351350fce8459c10da}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!Matrix@{Matrix}}
+\index{Matrix@{Matrix}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{Matrix()}{Matrix()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily kerbal\+::math\+::\+Matrix\+::\+Matrix (\begin{DoxyParamCaption}\item[{const int}]{row,  }\item[{const int}]{column }\end{DoxyParamCaption})}
+
+
+
+构造一个 row 行 $\ast$ column 列 的零矩阵 
+
+
+\begin{DoxyParams}{参数}
+{\em row} & 行数 \\
+\hline
+{\em column} & 列数 \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a17111be388a194c33c39946cb7548d79}\label{classkerbal_1_1math_1_1_matrix_a17111be388a194c33c39946cb7548d79}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!Matrix@{Matrix}}
+\index{Matrix@{Matrix}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{Matrix()}{Matrix()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily kerbal\+::math\+::\+Matrix\+::\+Matrix (\begin{DoxyParamCaption}\item[{const int}]{row,  }\item[{const int}]{column,  }\item[{const double \&}]{val }\end{DoxyParamCaption})}
+
+
+
+构造一个 row 行 $\ast$ column 列 的矩阵, 矩阵中每个元素的初始值由参数 val 指定 
+
+
+\begin{DoxyParams}{参数}
+{\em row} & 行数 \\
+\hline
+{\em column} & 列数 \\
+\hline
+{\em val} & 初始值 \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{成员函数说明}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_aed36c6097e228052c76e437a4cb195b7}\label{classkerbal_1_1math_1_1_matrix_aed36c6097e228052c76e437a4cb195b7}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!kmc@{kmc}}
+\index{kmc@{kmc}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{kmc()}{kmc()}}
+{\footnotesize\ttfamily void kerbal\+::math\+::\+Matrix\+::kmc (\begin{DoxyParamCaption}\item[{const double}]{k,  }\item[{const int}]{column\+\_\+dest }\end{DoxyParamCaption}) throw  std\+::out\+\_\+of\+\_\+range) }
+
+
+
+令矩阵中指定列上的每一个元素均乘上系数 k 
+
+
+\begin{DoxyParams}{参数}
+{\em k} & 系数 \\
+\hline
+{\em column\+\_\+dest} & 被乘列列号 \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_add7ad7a55135e85d44437aaceb13ea02}\label{classkerbal_1_1math_1_1_matrix_add7ad7a55135e85d44437aaceb13ea02}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!kmr@{kmr}}
+\index{kmr@{kmr}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{kmr()}{kmr()}}
+{\footnotesize\ttfamily void kerbal\+::math\+::\+Matrix\+::kmr (\begin{DoxyParamCaption}\item[{const double}]{k,  }\item[{const int}]{row\+\_\+dest }\end{DoxyParamCaption}) throw  std\+::out\+\_\+of\+\_\+range) }
+
+
+
+令矩阵中指定行上的每一个元素均乘上系数 k 
+
+
+\begin{DoxyParams}{参数}
+{\em k} & 系数 \\
+\hline
+{\em row\+\_\+dest} & 被乘行行号 \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{异常}
+{\em std\+::out\+\_\+of\+\_\+range} & 若参数 row\+\_\+dest 越界, 则抛出此异常 \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_aed63e5a9858d007ceaf95efb0f66c221}\label{classkerbal_1_1math_1_1_matrix_aed63e5a9858d007ceaf95efb0f66c221}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!kmr\+\_\+plus\+\_\+to\+\_\+another@{kmr\+\_\+plus\+\_\+to\+\_\+another}}
+\index{kmr\+\_\+plus\+\_\+to\+\_\+another@{kmr\+\_\+plus\+\_\+to\+\_\+another}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{kmr\+\_\+plus\+\_\+to\+\_\+another()}{kmr\_plus\_to\_another()}}
+{\footnotesize\ttfamily void kerbal\+::math\+::\+Matrix\+::kmr\+\_\+plus\+\_\+to\+\_\+another (\begin{DoxyParamCaption}\item[{const double}]{k,  }\item[{const int}]{row\+\_\+from,  }\item[{const int}]{row\+\_\+dest }\end{DoxyParamCaption}) throw  std\+::out\+\_\+of\+\_\+range) }
+
+
+
+将矩阵 row\+\_\+from 行的 k 倍加到 row\+\_\+dest 行上 
+
+
+\begin{DoxyParams}{参数}
+{\em k} & 系数 \\
+\hline
+{\em row\+\_\+from} & 被乘行行号 \\
+\hline
+{\em row\+\_\+dest} & 被加行行号 \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{异常}
+{\em std\+::out\+\_\+of\+\_\+range} & 若参数 row\+\_\+from 或 row\+\_\+dest 越界, 则抛出此异常 \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a37786e33296ebea6c97d12d1e659a693}\label{classkerbal_1_1math_1_1_matrix_a37786e33296ebea6c97d12d1e659a693}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!operator$\ast$=@{operator$\ast$=}}
+\index{operator$\ast$=@{operator$\ast$=}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{operator$\ast$=()}{operator*=()}}
+{\footnotesize\ttfamily \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \& kerbal\+::math\+::\+Matrix\+::operator$\ast$= (\begin{DoxyParamCaption}\item[{double}]{k }\end{DoxyParamCaption}) throw  ) }
+
+
+
+令一个矩阵的每一个元素均乘以系数 k 
+
+
+\begin{DoxyParams}{参数}
+{\em k} & 系数 k \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+赋值运算符前被乘矩阵的引用 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{异常}
+{\em 此方法保证不抛出任何异常} & \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyRemark}{备注}
+此方法等效于 m = m $\ast$ k 或 m = k $\ast$ m , 不过具有更佳的效率 
+\end{DoxyRemark}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a2adadd6868dbd09192a77655dc54a580}\label{classkerbal_1_1math_1_1_matrix_a2adadd6868dbd09192a77655dc54a580}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!operator+=@{operator+=}}
+\index{operator+=@{operator+=}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{operator+=()}{operator+=()}}
+{\footnotesize\ttfamily \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \& kerbal\+::math\+::\+Matrix\+::operator+= (\begin{DoxyParamCaption}\item[{const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&}]{with }\end{DoxyParamCaption}) throw  std\+::invalid\+\_\+argument) }
+
+
+
+令赋值运算符前的矩阵加上赋值运算符后的矩阵 
+
+
+\begin{DoxyParams}{参数}
+{\em with} & 加上的矩阵 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+赋值运算符前被加矩阵的引用 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{异常}
+{\em std\+::invalid\+\_\+argument} & 当两个矩阵大小不一致时, 抛出此异常 \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyRemark}{备注}
+此方法等效于 m = m + with 或 m = with + m , 不过具有更佳的效率 
+\end{DoxyRemark}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a4fcc469526f1c13aab912278ba69dd85}\label{classkerbal_1_1math_1_1_matrix_a4fcc469526f1c13aab912278ba69dd85}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!operator-\/=@{operator-\/=}}
+\index{operator-\/=@{operator-\/=}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{operator-\/=()}{operator-=()}}
+{\footnotesize\ttfamily \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \& kerbal\+::math\+::\+Matrix\+::operator-\/= (\begin{DoxyParamCaption}\item[{const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&}]{with }\end{DoxyParamCaption}) throw  std\+::invalid\+\_\+argument) }
+
+
+
+令赋值运算符前的矩阵减去赋值运算符后的矩阵 
+
+
+\begin{DoxyParams}{参数}
+{\em with} & 减去的矩阵 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+赋值运算符前被减矩阵的引用 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{异常}
+{\em std\+::invalid\+\_\+argument} & 当两个矩阵大小不一致时, 抛出此异常 \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyRemark}{备注}
+此方法等效于 m = m -\/ with , 不过具有更佳的效率 
+\end{DoxyRemark}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a47ee8c0afe98e4545233b10f7f7774e8}\label{classkerbal_1_1math_1_1_matrix_a47ee8c0afe98e4545233b10f7f7774e8}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!switch\+\_\+columns@{switch\+\_\+columns}}
+\index{switch\+\_\+columns@{switch\+\_\+columns}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{switch\+\_\+columns()}{switch\_columns()}}
+{\footnotesize\ttfamily void kerbal\+::math\+::\+Matrix\+::switch\+\_\+columns (\begin{DoxyParamCaption}\item[{const int}]{column1,  }\item[{const int}]{column2 }\end{DoxyParamCaption}) throw  std\+::out\+\_\+of\+\_\+range) }
+
+
+
+交换矩阵的两列 
+
+
+\begin{DoxyParams}{参数}
+{\em column1} & 列号1 \\
+\hline
+{\em column2} & 列号2 \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{异常}
+{\em std\+::out\+\_\+of\+\_\+range} & 若参数 column1 或 column2 越界, 则抛出此异常 \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyParagraph}{时间复杂度}
+此操作具有 O(row) 阶复杂度. 其中, row 表示被操作矩阵的行数 
+\end{DoxyParagraph}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a07d1c06f2a123d7a7366c49c8c884f03}\label{classkerbal_1_1math_1_1_matrix_a07d1c06f2a123d7a7366c49c8c884f03}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!switch\+\_\+rows@{switch\+\_\+rows}}
+\index{switch\+\_\+rows@{switch\+\_\+rows}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{switch\+\_\+rows()}{switch\_rows()}}
+{\footnotesize\ttfamily void kerbal\+::math\+::\+Matrix\+::switch\+\_\+rows (\begin{DoxyParamCaption}\item[{const int}]{row1,  }\item[{const int}]{row2 }\end{DoxyParamCaption}) throw  std\+::out\+\_\+of\+\_\+range) }
+
+
+
+交换矩阵的两行 
+
+
+\begin{DoxyParams}{参数}
+{\em row1} & 行号1 \\
+\hline
+{\em row2} & 行号2 \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{异常}
+{\em std\+::out\+\_\+of\+\_\+range} & 若 参数 row1 或 row2 越界, 则抛出此异常 \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyParagraph}{时间复杂度}
+此操作具有 O(1) 阶复杂度 
+\end{DoxyParagraph}
+
+
+\subsection{友元及相关函数文档}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a34aab263e821d766d31517e9d03a1aca}\label{classkerbal_1_1math_1_1_matrix_a34aab263e821d766d31517e9d03a1aca}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!dot\+\_\+product@{dot\+\_\+product}}
+\index{dot\+\_\+product@{dot\+\_\+product}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{dot\+\_\+product}{dot\_product}}
+{\footnotesize\ttfamily const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} dot\+\_\+product (\begin{DoxyParamCaption}\item[{const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&}]{A,  }\item[{const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&}]{B }\end{DoxyParamCaption}) throw  std\+::invalid\+\_\+argument) \hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+计算两个矩阵的点乘 
+
+
+\begin{DoxyParams}{参数}
+{\em A} & 矩阵 A \\
+\hline
+{\em B} & 矩阵 B \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+A .$\ast$ B 的结果 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{异常}
+{\em std\+::invalid\+\_\+argument} & 若两个矩阵的大小不一致, 则抛出此异常 \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyRemark}{备注}
+完全等价于 Matlab 中 A .$\ast$ B 的运算 
+\end{DoxyRemark}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a66d6a7eb6b57a6e5acb75ab8b4349471}\label{classkerbal_1_1math_1_1_matrix_a66d6a7eb6b57a6e5acb75ab8b4349471}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!eye@{eye}}
+\index{eye@{eye}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{eye}{eye}}
+{\footnotesize\ttfamily const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} eye (\begin{DoxyParamCaption}\item[{int}]{n }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+返回一个 n 阶单位矩阵 
+
+
+\begin{DoxyParams}{参数}
+{\em n} & 阶数 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+n 阶单位矩阵 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_aef00278756b7155aa065aa0e2c206b91}\label{classkerbal_1_1math_1_1_matrix_aef00278756b7155aa065aa0e2c206b91}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!fma@{fma}}
+\index{fma@{fma}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{fma}{fma}}
+{\footnotesize\ttfamily const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} fma (\begin{DoxyParamCaption}\item[{const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&}]{A,  }\item[{const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&}]{B,  }\item[{const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&}]{C }\end{DoxyParamCaption}) throw  std\+::invalid\+\_\+argument) \hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+计算 (A $\ast$ B) + C 的结果 
+
+
+\begin{DoxyParams}{参数}
+{\em A} & 矩阵 A \\
+\hline
+{\em B} & 矩阵 B \\
+\hline
+{\em C} & 矩阵 C \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+(A $\ast$ B) + C 的结果 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{异常}
+{\em std\+::invalid\+\_\+argument} & 若参数矩阵的大小不可满足运算要求, 则抛出此异常 \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyRemark}{备注}
+完全等效于表达式 (A $\ast$ B) + C , 但是速度有少许提高 
+\end{DoxyRemark}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a8b58a45223c7264d0e45d238f66b1eb5}\label{classkerbal_1_1math_1_1_matrix_a8b58a45223c7264d0e45d238f66b1eb5}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!operator \&\&@{operator \&\&}}
+\index{operator \&\&@{operator \&\&}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{operator \&\&}{operator \&\&}}
+{\footnotesize\ttfamily const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} operator\&\& (\begin{DoxyParamCaption}\item[{const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&}]{A,  }\item[{const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&}]{B }\end{DoxyParamCaption}) throw  std\+::invalid\+\_\+argument) \hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+将两个矩阵按竖直方向连接 
+
+
+\begin{DoxyParams}{参数}
+{\em A} & 待连接矩阵 A \\
+\hline
+{\em B} & 待连接矩阵 B \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+连接生成的矩阵 
+\end{DoxyReturn}
+\begin{DoxyParagraph}{使用示例}
+假设有矩阵~\newline
+\begin{quote}
+\begin{DoxyVerb}    | 1 2 |          | 7 4 |
+A = | 3 5 |      B = | 4 5 |
+    | 7 9 |          | 0 1 |
+\end{DoxyVerb}
+
+
+\end{quote}
+则表达式 A \&\& B 返回的结果矩阵 result 为~\newline
+\begin{quote}
+\begin{DoxyVerb}         | 1 2 |
+         | 3 5 |
+result = | 7 9 |
+         | 7 4 |
+         | 4 5 |
+         | 0 1 |
+\end{DoxyVerb}
+
+
+\end{quote}
+
+\end{DoxyParagraph}
+
+\begin{DoxyExceptions}{异常}
+{\em std\+::invalid\+\_\+argument} & 当两个待连接的矩阵的列数不一致时, 抛出此异常 \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{参见}
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \hyperlink{classkerbal_1_1math_1_1_matrix_aaa58ea23f11a2f1ad42b487f9a6d0245}{operator$\vert$$\vert$(const Matrix \&\+A, const Matrix \&\+B)} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a68ca5b1d7d0aaf615a63771788562210}\label{classkerbal_1_1math_1_1_matrix_a68ca5b1d7d0aaf615a63771788562210}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!operator+@{operator+}}
+\index{operator+@{operator+}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{operator+}{operator+}}
+{\footnotesize\ttfamily const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} operator+ (\begin{DoxyParamCaption}\item[{const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&}]{A,  }\item[{const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&}]{B }\end{DoxyParamCaption}) throw  std\+::invalid\+\_\+argument) \hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+计算两个矩阵的加法 
+
+
+\begin{DoxyParams}{参数}
+{\em A} & 矩阵 A \\
+\hline
+{\em B} & 矩阵 B \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+A + B 的结果 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{异常}
+{\em std\+::invalid\+\_\+argument} & 如果两个矩阵的大小不一致, 即行数与列数中只要有一个不相等, 则抛出此异常 \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a4fc480fab44a4d6c69a6cf92f91522ad}\label{classkerbal_1_1math_1_1_matrix_a4fc480fab44a4d6c69a6cf92f91522ad}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!operator-\/@{operator-\/}}
+\index{operator-\/@{operator-\/}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{operator-\/}{operator-}}
+{\footnotesize\ttfamily const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} operator-\/ (\begin{DoxyParamCaption}\item[{const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&}]{A,  }\item[{const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&}]{B }\end{DoxyParamCaption}) throw  std\+::invalid\+\_\+argument) \hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+计算两个矩阵的减法 
+
+
+\begin{DoxyParams}{参数}
+{\em A} & 矩阵 A \\
+\hline
+{\em B} & 矩阵 B \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+A -\/ B 的结果 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{异常}
+{\em std\+::invalid\+\_\+argument} & 如果两个矩阵的大小不一致, 即行数与列数中只要有一个不相等, 则抛出此异常 \\
+\hline
+\end{DoxyExceptions}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_af46d90e12227e9e1e8c8242cb2b0a93a}\label{classkerbal_1_1math_1_1_matrix_af46d90e12227e9e1e8c8242cb2b0a93a}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!operator$^\wedge$@{operator$^\wedge$}}
+\index{operator$^\wedge$@{operator$^\wedge$}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{operator$^\wedge$}{operator^}}
+{\footnotesize\ttfamily const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} operator$^\wedge$ (\begin{DoxyParamCaption}\item[{const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&}]{A,  }\item[{const int}]{n }\end{DoxyParamCaption}) throw  std\+::invalid\+\_\+argument) \hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+计算一个矩阵的 n 次幂 
+
+\begin{DoxyParagraph}{计算规则}
+
+\begin{DoxyItemize}
+\item 若 n 为负数, 则计算基数矩阵的逆矩阵的 -\/n 次幂~\newline
+
+\item 若 n 为 0, 则返回同样大小的单位矩阵~\newline
+
+\item 若 n 为 1, 则返回原矩阵的拷贝 
+\end{DoxyItemize}
+\end{DoxyParagraph}
+
+\begin{DoxyParams}{参数}
+{\em A} & 基数矩阵 \\
+\hline
+{\em n} & 次数 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+A 的 n 次幂 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{异常}
+{\em std\+::invalid\+\_\+argument} & 当 n 不等于 1 时, 要求基数矩阵必须为方阵, 否则抛出此异常 \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyRemark}{备注}
+表达式 A $^\wedge$ n 完全等效于函数表达式 pow(\+A, n) 
+\end{DoxyRemark}
+\begin{DoxySeeAlso}{参见}
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \hyperlink{classkerbal_1_1math_1_1_matrix_a35bd334cc41142e574a3261853fd14d2}{pow(const Matrix \& A, const int n )} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_aaa58ea23f11a2f1ad42b487f9a6d0245}\label{classkerbal_1_1math_1_1_matrix_aaa58ea23f11a2f1ad42b487f9a6d0245}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!operator\texttt{"|}\texttt{"|}@{operator\texttt{"|}\texttt{"|}}}
+\index{operator\texttt{"|}\texttt{"|}@{operator\texttt{"|}\texttt{"|}}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{operator\texttt{"|}\texttt{"|}}{operator||}}
+{\footnotesize\ttfamily const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} operator$\vert$$\vert$ (\begin{DoxyParamCaption}\item[{const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&}]{A,  }\item[{const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&}]{B }\end{DoxyParamCaption}) throw  std\+::invalid\+\_\+argument) \hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+将两个矩阵按水平方向连接 
+
+
+\begin{DoxyParams}{参数}
+{\em A} & 待连接矩阵 A \\
+\hline
+{\em B} & 待连接矩阵 B \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+连接生成的矩阵 
+\end{DoxyReturn}
+\begin{DoxyParagraph}{使用示例}
+假设有矩阵~\newline
+\begin{quote}
+\begin{DoxyVerb}    | 1 2 |         | 7 4 9 |
+A = | 3 5 |     B = | 4 5 6 |
+    | 7 9 |         | 0 1 2 |
+\end{DoxyVerb}
+
+
+\end{quote}
+则表达式 A $\vert$$\vert$ B 返回的结果矩阵 result 为~\newline
+\begin{quote}
+\begin{DoxyVerb}         | 1 2 7 4 9 |
+result = | 3 5 4 5 6 |
+         | 7 9 0 1 2 |
+\end{DoxyVerb}
+
+
+\end{quote}
+
+\end{DoxyParagraph}
+
+\begin{DoxyExceptions}{异常}
+{\em std\+::invalid\+\_\+argument} & 当两个待连接的矩阵的行数不一致时, 抛出此异常 \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxySeeAlso}{参见}
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \hyperlink{classkerbal_1_1math_1_1_matrix_a8b58a45223c7264d0e45d238f66b1eb5}{operator \&\&(const Matrix \&\+A, const Matrix \&\+B)} 
+\end{DoxySeeAlso}
+\mbox{\Hypertarget{classkerbal_1_1math_1_1_matrix_a35bd334cc41142e574a3261853fd14d2}\label{classkerbal_1_1math_1_1_matrix_a35bd334cc41142e574a3261853fd14d2}} 
+\index{kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}!pow@{pow}}
+\index{pow@{pow}!kerbal\+::math\+::\+Matrix@{kerbal\+::math\+::\+Matrix}}
+\subsubsection{\texorpdfstring{pow}{pow}}
+{\footnotesize\ttfamily const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} pow (\begin{DoxyParamCaption}\item[{const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \&}]{A,  }\item[{const int}]{n }\end{DoxyParamCaption}) throw  std\+::invalid\+\_\+argument) \hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+计算一个矩阵的 n 次幂 
+
+\begin{DoxyParagraph}{计算规则}
+
+\begin{DoxyItemize}
+\item 若 n 为负数, 则计算基数矩阵的逆矩阵的 -\/n 次幂~\newline
+
+\item 若 n 为 0, 则返回同样大小的单位矩阵~\newline
+
+\item 若 n 为 1, 则返回原矩阵的拷贝 
+\end{DoxyItemize}
+\end{DoxyParagraph}
+
+\begin{DoxyParams}{参数}
+{\em A} & 基数矩阵 \\
+\hline
+{\em n} & 次数 \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{返回}
+A 的 n 次幂 
+\end{DoxyReturn}
+
+\begin{DoxyExceptions}{异常}
+{\em std\+::invalid\+\_\+argument} & 当 n 不等于 1 时, 要求基数矩阵必须为方阵, 否则抛出此异常 \\
+\hline
+\end{DoxyExceptions}
+\begin{DoxyRemark}{备注}
+函数表达式 pow(\+A, n) 完全等效于表达式 A $^\wedge$ n 
+\end{DoxyRemark}
+\begin{DoxySeeAlso}{参见}
+const \hyperlink{classkerbal_1_1math_1_1_matrix}{Matrix} \hyperlink{classkerbal_1_1math_1_1_matrix_af46d90e12227e9e1e8c8242cb2b0a93a}{operator$^\wedge$(const Matrix \& A, const int n )} 
+\end{DoxySeeAlso}
+
+
+该类的文档由以下文件生成\+:\begin{DoxyCompactItemize}
+\item 
+src/kerbal/math/\hyperlink{matrix_8hpp}{matrix.\+hpp}\item 
+src/kerbal/math/matrix.\+cpp\end{DoxyCompactItemize}
