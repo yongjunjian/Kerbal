@@ -1,4 +1,0 @@
-var searchData=
-[
-  ['array_5f2d',['Array_2d',['../classkerbal_1_1data__struct_1_1array__2d_1_1_array__2d.html#acfbb85f9f3894fbf40e86c2dd837e129',1,'kerbal::data_struct::array_2d::Array_2d::Array_2d()'],['../classkerbal_1_1data__struct_1_1array__2d_1_1_array__2d.html#ae78c78dfea84f6260ea8050366fb08a7',1,'kerbal::data_struct::array_2d::Array_2d::Array_2d(const int row, const int column)'],['../classkerbal_1_1data__struct_1_1array__2d_1_1_array__2d.html#a74f99c436325ac345bfe131c17f582aa',1,'kerbal::data_struct::array_2d::Array_2d::Array_2d(const int row, const int column, const Type &amp;val)'],['../classkerbal_1_1data__struct_1_1array__2d_1_1_array__2d.html#aafd0ff416ac040d7411876601af3eddb',1,'kerbal::data_struct::array_2d::Array_2d::Array_2d(Type(*function)(), const int row, const int column, bool para)']]]
-];
