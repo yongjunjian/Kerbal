@@ -1,8 +1,10 @@
 var searchData=
 [
+  ['complexor',['complexor',['../namespacekerbal_1_1math_1_1complexor.html',1,'kerbal::math']]],
   ['kerbal',['kerbal',['../namespacekerbal.html',1,'']]],
-  ['kmc',['kmc',['../classkerbal_1_1math_1_1_matrix.html#aed36c6097e228052c76e437a4cb195b7',1,'kerbal::math::Matrix']]],
-  ['kmr',['kmr',['../classkerbal_1_1math_1_1_matrix.html#add7ad7a55135e85d44437aaceb13ea02',1,'kerbal::math::Matrix']]],
-  ['kmr_5fplus_5fto_5fanother',['kmr_plus_to_another',['../classkerbal_1_1math_1_1_matrix.html#aed63e5a9858d007ceaf95efb0f66c221',1,'kerbal::math::Matrix']]],
-  ['math',['math',['../namespacekerbal_1_1math.html',1,'kerbal']]]
+  ['kmc',['kmc',['../classkerbal_1_1math_1_1matrix_1_1_matrix.html#ad60bb9aa4526a6d67953149a562732ce',1,'kerbal::math::matrix::Matrix']]],
+  ['kmr',['kmr',['../classkerbal_1_1math_1_1matrix_1_1_matrix.html#a1978423f51f62308b97bf50ea90734db',1,'kerbal::math::matrix::Matrix']]],
+  ['kmr_5fplus_5fto_5fanother',['kmr_plus_to_another',['../classkerbal_1_1math_1_1matrix_1_1_matrix.html#a3149c6e1bf26cd6d5aea00029ba28484',1,'kerbal::math::matrix::Matrix']]],
+  ['math',['math',['../namespacekerbal_1_1math.html',1,'kerbal']]],
+  ['matrix',['matrix',['../namespacekerbal_1_1math_1_1matrix.html',1,'kerbal::math']]]
 ];

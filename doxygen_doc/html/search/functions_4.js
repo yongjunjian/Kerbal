@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['fma',['fma',['../namespacekerbal_1_1math.html#a278eb71f14e9ac59a15b408a4f2ff5bf',1,'kerbal::math']]]
+  ['fma',['fma',['../namespacekerbal_1_1math_1_1matrix.html#a3868d77d7f8be945b126e0bbb85f2917',1,'kerbal::math::matrix']]]
 ];

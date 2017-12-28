@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['safety',['safety',['../classarray__2d_1_1safety.html',1,'array_2d']]],
-  ['spherical',['Spherical',['../classkerbal_1_1spherical_1_1_spherical.html',1,'kerbal::spherical']]]
+  ['range_5fiterator',['Range_iterator',['../classkerbal_1_1_range_1_1_range__view_1_1_range__iterator.html',1,'kerbal::Range::Range_view']]],
+  ['range_5fview',['Range_view',['../classkerbal_1_1_range_1_1_range__view.html',1,'kerbal::Range']]]
 ];

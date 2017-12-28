@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['tr_5fexcept',['Tr_except',['../classkerbal_1_1traceable_1_1_tr__except.html',1,'kerbal::traceable']]],
-  ['trace',['Trace',['../structkerbal_1_1traceable_1_1_tr__except_1_1_trace.html',1,'kerbal::traceable::Tr_except']]]
+  ['safety',['safety',['../classkerbal_1_1data__struct_1_1array__2d_1_1safety.html',1,'kerbal::data_struct::array_2d']]],
+  ['spherical',['Spherical',['../classkerbal_1_1spherical_1_1_spherical.html',1,'kerbal::spherical']]]
 ];

@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['dot_5fproduct',['dot_product',['../classkerbal_1_1math_1_1_matrix.html#a34aab263e821d766d31517e9d03a1aca',1,'kerbal::math::Matrix']]]
+  ['complexor',['Complexor',['../classkerbal_1_1math_1_1complexor_1_1_complexor.html#abd7746b9ea15657eb6358afb2252e6e9',1,'kerbal::math::complexor::Complexor']]]
 ];

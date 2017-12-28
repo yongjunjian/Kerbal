@@ -1,7 +1,9 @@
 var searchData=
 [
-  ['safety',['safety',['../classarray__2d_1_1safety.html',1,'array_2d']]],
-  ['spherical',['Spherical',['../classkerbal_1_1spherical_1_1_spherical.html',1,'kerbal::spherical']]],
-  ['switch_5fcolumns',['switch_columns',['../classkerbal_1_1math_1_1_matrix.html#a47ee8c0afe98e4545233b10f7f7774e8',1,'kerbal::math::Matrix']]],
-  ['switch_5frows',['switch_rows',['../classkerbal_1_1math_1_1_matrix.html#a07d1c06f2a123d7a7366c49c8c884f03',1,'kerbal::math::Matrix']]]
+  ['range_5fiterator',['Range_iterator',['../classkerbal_1_1_range_1_1_range__view_1_1_range__iterator.html',1,'kerbal::Range::Range_view']]],
+  ['range_5fview',['Range_view',['../classkerbal_1_1_range_1_1_range__view.html',1,'kerbal::Range']]],
+  ['rd_5fcorner',['rd_corner',['../classkerbal_1_1math_1_1matrix_1_1_matrix.html#ac59713e447dc0726788cf7ff182834b3aa455ac48b1c15eaa87d428cf62006025',1,'kerbal::math::matrix::Matrix']]],
+  ['resize',['resize',['../classkerbal_1_1math_1_1complexor_1_1_complexor.html#aa202f5ab2163cb5eee5040690063987e',1,'kerbal::math::complexor::Complexor']]],
+  ['row',['row',['../classkerbal_1_1data__struct_1_1array__2d_1_1_array__2d.html#a6f83b675d9aa0175e525cc004ac91439',1,'kerbal::data_struct::array_2d::Array_2d']]],
+  ['rt_5fcorner',['rt_corner',['../classkerbal_1_1math_1_1matrix_1_1_matrix.html#ac59713e447dc0726788cf7ff182834b3ad15642196aea3ae5c6a42cf3ac75d841',1,'kerbal::math::matrix::Matrix']]]
 ];
