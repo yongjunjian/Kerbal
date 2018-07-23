@@ -75,6 +75,8 @@ $(function() {
 <div class="title">kerbal::redis::List&lt; Type &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p><code>#include &lt;<a class="el" href="list_8hpp_source.html">list.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
@@ -84,23 +86,24 @@ typedef <a class="el" href="classkerbal_1_1redis_1_1_list_iterator.html">ListIte
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a7c541ccbcd9f1a29099a021febe1eb74"><td class="memItemLeft" align="right" valign="top"><a id="a7c541ccbcd9f1a29099a021febe1eb74"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>List</b> (const <a class="el" href="classkerbal_1_1redis_1_1_context.html">Context</a> &amp;conn, const std::string &amp;key)</td></tr>
+<tr class="memitem:a7c541ccbcd9f1a29099a021febe1eb74"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis_1_1_list.html#a7c541ccbcd9f1a29099a021febe1eb74">List</a> (const <a class="el" href="classkerbal_1_1redis_1_1_context.html">Context</a> &amp;conn, const std::string &amp;key)</td></tr>
+<tr class="memdesc:a7c541ccbcd9f1a29099a021febe1eb74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Establish reference to a list object.  <a href="#a7c541ccbcd9f1a29099a021febe1eb74">More...</a><br /></td></tr>
 <tr class="separator:a7c541ccbcd9f1a29099a021febe1eb74"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2ce296878d35ca1cdc509bedc8168cc3"><td class="memItemLeft" align="right" valign="top"><a id="a2ce296878d35ca1cdc509bedc8168cc3"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>operator std::vector&lt; Type &gt;</b> ()</td></tr>
+&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis_1_1_list.html#a2ce296878d35ca1cdc509bedc8168cc3">operator std::vector&lt; Type &gt;</a> ()</td></tr>
+<tr class="memdesc:a2ce296878d35ca1cdc509bedc8168cc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Cast the referenced list object to an instance of std::vector. <br /></td></tr>
 <tr class="separator:a2ce296878d35ca1cdc509bedc8168cc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf8fdcdfaf44fc0f9b81b88982365e0e"><td class="memItemLeft" align="right" valign="top"><a id="acf8fdcdfaf44fc0f9b81b88982365e0e"></a>
-std::vector&lt; Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>lrange</b> (int begin, int end)</td></tr>
+<tr class="memitem:acf8fdcdfaf44fc0f9b81b88982365e0e"><td class="memItemLeft" align="right" valign="top">std::vector&lt; Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis_1_1_list.html#acf8fdcdfaf44fc0f9b81b88982365e0e">lrange</a> (int begin, int end)</td></tr>
+<tr class="memdesc:acf8fdcdfaf44fc0f9b81b88982365e0e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetch the elements in range [begin, end) of the referenced list object.  <a href="#acf8fdcdfaf44fc0f9b81b88982365e0e">More...</a><br /></td></tr>
 <tr class="separator:acf8fdcdfaf44fc0f9b81b88982365e0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07b7f64a3b1e9f8acdff14a027a7fa7f"><td class="memItemLeft" align="right" valign="top"><a id="a07b7f64a3b1e9f8acdff14a027a7fa7f"></a>
-const std::vector&lt; Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><b>lrange</b> (int begin, int end) const</td></tr>
+<tr class="memitem:a07b7f64a3b1e9f8acdff14a027a7fa7f"><td class="memItemLeft" align="right" valign="top">const std::vector&lt; Type &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis_1_1_list.html#a07b7f64a3b1e9f8acdff14a027a7fa7f">lrange</a> (int begin, int end) const</td></tr>
+<tr class="memdesc:a07b7f64a3b1e9f8acdff14a027a7fa7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Fetch the elements in range [begin, end) of the referenced list object.  <a href="#a07b7f64a3b1e9f8acdff14a027a7fa7f">More...</a><br /></td></tr>
 <tr class="separator:a07b7f64a3b1e9f8acdff14a027a7fa7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a81426ce397fdac2214e57668b0ae9476"><td class="memItemLeft" align="right" valign="top"><a id="a81426ce397fdac2214e57668b0ae9476"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>empty</b> () const</td></tr>
+<tr class="memitem:a81426ce397fdac2214e57668b0ae9476"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis_1_1_list.html#a81426ce397fdac2214e57668b0ae9476">empty</a> () const</td></tr>
+<tr class="memdesc:a81426ce397fdac2214e57668b0ae9476"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether the referenced list object is empty.  <a href="#a81426ce397fdac2214e57668b0ae9476">More...</a><br /></td></tr>
 <tr class="separator:a81426ce397fdac2214e57668b0ae9476"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a674925f1619a623471c083531ba37484"><td class="memItemLeft" align="right" valign="top"><a id="a674925f1619a623471c083531ba37484"></a>
-size_t&#160;</td><td class="memItemRight" valign="bottom"><b>size</b> () const</td></tr>
+<tr class="memitem:a674925f1619a623471c083531ba37484"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis_1_1_list.html#a674925f1619a623471c083531ba37484">size</a> () const</td></tr>
+<tr class="memdesc:a674925f1619a623471c083531ba37484"><td class="mdescLeft">&#160;</td><td class="mdescRight">Count how many elements in the referenced list object.  <a href="#a674925f1619a623471c083531ba37484">More...</a><br /></td></tr>
 <tr class="separator:a674925f1619a623471c083531ba37484"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a88225302af80da398158e45f95438986"><td class="memTemplParams" colspan="2"><a id="a88225302af80da398158e45f95438986"></a>
 template&lt;typename ... Args&gt; </td></tr>
@@ -111,7 +114,7 @@ template&lt;typename ... Args&gt; </td></tr>
 <tr class="memitem:a31a414e5d26050f321a05a5f7e81582a"><td class="memTemplItemLeft" align="right" valign="top">size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><b>push_back</b> (const Type &amp;value0, Args &amp;&amp;... args)</td></tr>
 <tr class="separator:a31a414e5d26050f321a05a5f7e81582a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a423e8c1bcda1545f03946caa01e6dd40"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis_1_1_list.html#a423e8c1bcda1545f03946caa01e6dd40">lpushx</a> (const Type &amp;value)</td></tr>
-<tr class="memdesc:a423e8c1bcda1545f03946caa01e6dd40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepend a value to a list, only if the list exists.  <a href="#a423e8c1bcda1545f03946caa01e6dd40">More...</a><br /></td></tr>
+<tr class="memdesc:a423e8c1bcda1545f03946caa01e6dd40"><td class="mdescLeft">&#160;</td><td class="mdescRight">Prepend a value to a list, only if the referenced list object exists.  <a href="#a423e8c1bcda1545f03946caa01e6dd40">More...</a><br /></td></tr>
 <tr class="separator:a423e8c1bcda1545f03946caa01e6dd40"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6f4a1663fcdc08cbddb01d73f02d885"><td class="memItemLeft" align="right" valign="top"><a id="ab6f4a1663fcdc08cbddb01d73f02d885"></a>
 size_t&#160;</td><td class="memItemRight" valign="bottom"><b>rpushx</b> (const Type &amp;value)</td></tr>
@@ -183,7 +186,95 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>ListReferenceBase&lt
 class&#160;</td><td class="memItemRight" valign="bottom"><b>ListIterator&lt; Type &gt;</b></td></tr>
 <tr class="separator:aae98541ba1987cc9832596fd39e90256"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;typename Type&gt;<br />
+class kerbal::redis::List&lt; Type &gt;</h3>
+
+<dl class="tparams"><dt>Template Parameters</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Type</td><td></td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a7c541ccbcd9f1a29099a021febe1eb74"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c541ccbcd9f1a29099a021febe1eb74">&#9670;&nbsp;</a></span>List()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classkerbal_1_1redis_1_1_list.html">kerbal::redis::List</a>&lt; Type &gt;::<a class="el" href="classkerbal_1_1redis_1_1_list.html">List</a> </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classkerbal_1_1redis_1_1_context.html">Context</a> &amp;&#160;</td>
+          <td class="paramname"><em>conn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>key</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Establish reference to a list object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">conn</td><td>An accessible redis context </td></tr>
+    <tr><td class="paramname">key</td><td>The redis list object's key name </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a81426ce397fdac2214e57668b0ae9476"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a81426ce397fdac2214e57668b0ae9476">&#9670;&nbsp;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classkerbal_1_1redis_1_1_list.html">kerbal::redis::List</a>&lt; Type &gt;::empty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Test whether the referenced list object is empty. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if empty, false if not empty </dd></dl>
+
+</div>
+</div>
 <a id="a423e8c1bcda1545f03946caa01e6dd40"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a423e8c1bcda1545f03946caa01e6dd40">&#9670;&nbsp;</a></span>lpushx()</h2>
 
@@ -210,9 +301,140 @@ template&lt;typename Type&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Prepend a value to a list, only if the list exists. </p>
-<dl class="section since"><dt>Since</dt><dd>2.2.0 </dd></dl>
-<dl class="section return"><dt>Returns</dt><dd>The size of the list after insert </dd></dl>
+<p>Prepend a value to a list, only if the referenced list object exists. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">value</td><td>The value to be prepended </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>The size of the referenced list object after insert </dd></dl>
+
+</div>
+</div>
+<a id="acf8fdcdfaf44fc0f9b81b88982365e0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf8fdcdfaf44fc0f9b81b88982365e0e">&#9670;&nbsp;</a></span>lrange() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;Type&gt; <a class="el" href="classkerbal_1_1redis_1_1_list.html">kerbal::redis::List</a>&lt; Type &gt;::lrange </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fetch the elements in range [begin, end) of the referenced list object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">begin</td><td>The start index </td></tr>
+    <tr><td class="paramname">end</td><td>The end index + 1 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An instance of std::vector contains elements in range [begin, end) </dd></dl>
+
+</div>
+</div>
+<a id="a07b7f64a3b1e9f8acdff14a027a7fa7f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07b7f64a3b1e9f8acdff14a027a7fa7f">&#9670;&nbsp;</a></span>lrange() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt;Type&gt; <a class="el" href="classkerbal_1_1redis_1_1_list.html">kerbal::redis::List</a>&lt; Type &gt;::lrange </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>begin</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>end</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Fetch the elements in range [begin, end) of the referenced list object. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">begin</td><td>The start index </td></tr>
+    <tr><td class="paramname">end</td><td>The end index + 1 </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>An constant instance of std::vector contains elements in range [begin, end) </dd></dl>
+
+</div>
+</div>
+<a id="a674925f1619a623471c083531ba37484"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a674925f1619a623471c083531ba37484">&#9670;&nbsp;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="classkerbal_1_1redis_1_1_list.html">kerbal::redis::List</a>&lt; Type &gt;::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Count how many elements in the referenced list object. </p>
+<dl class="section return"><dt>Returns</dt><dd>Elements number in the referenced list object </dd></dl>
 
 </div>
 </div>

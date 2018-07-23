@@ -1,6 +1,7 @@
 var searchData=
 [
   ['operator_20_26_26',['operator &amp;&amp;',['../classkerbal_1_1data__struct_1_1array__2d_1_1_array__2d.html#a3218f43442b5b718486f68646d17372c',1,'kerbal::data_struct::array_2d::Array_2d']]],
+  ['operator_20bool',['operator bool',['../classkerbal_1_1redis_1_1_context.html#a3c0b57118e55c872ad9b4c9a51027c73',1,'kerbal::redis::Context']]],
   ['operator_20double',['operator double',['../classkerbal_1_1math_1_1complex_1_1_complex.html#a0a9d1f26c7d2db6285f885cf3733329f',1,'kerbal::math::complex::Complex']]],
   ['operator_2a_3d',['operator*=',['../classkerbal_1_1math_1_1complexor_1_1_complexor.html#acfa84cc2af7f935479c674a6b8fcaf1f',1,'kerbal::math::complexor::Complexor::operator*=()'],['../classkerbal_1_1math_1_1matrix_1_1_matrix.html#a75d416ba01e4c1260ff29ad1e16c4ddc',1,'kerbal::math::matrix::Matrix::operator*=()']]],
   ['operator_2b',['operator+',['../classkerbal_1_1math_1_1complexor_1_1_complexor.html#aa2672017e4ccd5d5acacbd07b7c5b86b',1,'kerbal::math::complexor::Complexor::operator+(const Complexor &amp;with) const'],['../classkerbal_1_1math_1_1complexor_1_1_complexor.html#a12fff7fe64db84895c50e2ada946ef15',1,'kerbal::math::complexor::Complexor::operator+() const'],['../namespacekerbal_1_1math_1_1complexor.html#a5a466fd25cfb61eee22ec27288f5e932',1,'kerbal::math::complexor::operator+()']]],
@@ -11,5 +12,6 @@ var searchData=
   ['operator_3d',['operator=',['../classkerbal_1_1data__struct_1_1_auto__array.html#a407cf78d69c4fd73dbc2470600bdc87b',1,'kerbal::data_struct::Auto_array::operator=()'],['../classkerbal_1_1math_1_1complexor_1_1_complexor.html#afbb900a91ef3765012d55114a15f3008',1,'kerbal::math::complexor::Complexor::operator=(const Complexor &amp;src)'],['../classkerbal_1_1math_1_1complexor_1_1_complexor.html#ad3763d14532496587726f331366dcc60',1,'kerbal::math::complexor::Complexor::operator=(const Complexor&lt; Type2 &gt; &amp;src)'],['../classkerbal_1_1math_1_1complexor_1_1_complexor.html#adb3f8a45c9ab914ed25362480df7b5e8',1,'kerbal::math::complexor::Complexor::operator=(Complexor &amp;&amp;src) noexcept'],['../classkerbal_1_1math_1_1matrix_1_1_matrix.html#aea2f784cdc9ac6a5d958208efc583895',1,'kerbal::math::matrix::Matrix::operator=()']]],
   ['operator_3d_3d',['operator==',['../group__compare.html#ga3caaa8b97582b03a3d32ac400b5facf1',1,'kerbal::data_struct::Auto_stack']]],
   ['operator_5e',['operator^',['../classkerbal_1_1math_1_1complexor_1_1_complexor.html#a33272b5e6650bdb0cff2b488430ece2b',1,'kerbal::math::complexor::Complexor::operator^()'],['../classkerbal_1_1math_1_1matrix_1_1_matrix.html#a91117f51380b64537e967ee5414d0edc',1,'kerbal::math::matrix::Matrix::operator^()']]],
-  ['operator_7c_7c',['operator||',['../classkerbal_1_1data__struct_1_1array__2d_1_1_array__2d.html#ad31cb45a907ea031508b9527f5034c23',1,'kerbal::data_struct::array_2d::Array_2d']]]
+  ['operator_7c_7c',['operator||',['../classkerbal_1_1data__struct_1_1array__2d_1_1_array__2d.html#ad31cb45a907ea031508b9527f5034c23',1,'kerbal::data_struct::array_2d::Array_2d']]],
+  ['vector_3c_20type_20_3e',['vector&lt; Type &gt;',['../classkerbal_1_1redis_1_1_list.html#a2ce296878d35ca1cdc509bedc8168cc3',1,'kerbal::redis::List']]]
 ];

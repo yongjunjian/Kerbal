@@ -72,6 +72,11 @@ $(function() {
 <div class="title">kerbal::redis::Context Class Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
+
+<p>An auto-closed redis context.  
+ <a href="classkerbal_1_1redis_1_1_context.html#details">More...</a></p>
+
+<p><code>#include &lt;<a class="el" href="redis__context_8hpp_source.html">redis_context.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for kerbal::redis::Context:</div>
 <div class="dyncontent">
@@ -83,8 +88,11 @@ Inheritance diagram for kerbal::redis::Context:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4e1b90f6a1c7b7e997103a0e93fd8fcd"><td class="memItemLeft" align="right" valign="top"><a id="a4e1b90f6a1c7b7e997103a0e93fd8fcd"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>close</b> () noexcept</td></tr>
+<tr class="memitem:a7f1e6994fa490b87ea16c7af449170a4"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis_1_1_context.html#a7f1e6994fa490b87ea16c7af449170a4">Context</a> () noexcept</td></tr>
+<tr class="memdesc:a7f1e6994fa490b87ea16c7af449170a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct an empty context.  <a href="#a7f1e6994fa490b87ea16c7af449170a4">More...</a><br /></td></tr>
+<tr class="separator:a7f1e6994fa490b87ea16c7af449170a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e1b90f6a1c7b7e997103a0e93fd8fcd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis_1_1_context.html#a4e1b90f6a1c7b7e997103a0e93fd8fcd">close</a> () noexcept</td></tr>
+<tr class="memdesc:a4e1b90f6a1c7b7e997103a0e93fd8fcd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Close the context.  <a href="#a4e1b90f6a1c7b7e997103a0e93fd8fcd">More...</a><br /></td></tr>
 <tr class="separator:a4e1b90f6a1c7b7e997103a0e93fd8fcd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d76f6202de01a145d8d737afbdc81ae"><td class="memItemLeft" align="right" valign="top"><a id="a6d76f6202de01a145d8d737afbdc81ae"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>connect</b> (const char ip[], int port) noexcept</td></tr>
@@ -98,17 +106,17 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>connectWithTimeout</b
 <tr class="memitem:ac206234870649a8070166cc725c4b357"><td class="memItemLeft" align="right" valign="top"><a id="ac206234870649a8070166cc725c4b357"></a>
 int&#160;</td><td class="memItemRight" valign="bottom"><b>reconnect</b> () noexcept</td></tr>
 <tr class="separator:ac206234870649a8070166cc725c4b357"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3c0b57118e55c872ad9b4c9a51027c73"><td class="memItemLeft" align="right" valign="top"><a id="a3c0b57118e55c872ad9b4c9a51027c73"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>operator bool</b> () const noexcept</td></tr>
+<tr class="memitem:a3c0b57118e55c872ad9b4c9a51027c73"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis_1_1_context.html#a3c0b57118e55c872ad9b4c9a51027c73">operator bool</a> () const noexcept</td></tr>
+<tr class="memdesc:a3c0b57118e55c872ad9b4c9a51027c73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether the context is valid.  <a href="#a3c0b57118e55c872ad9b4c9a51027c73">More...</a><br /></td></tr>
 <tr class="separator:a3c0b57118e55c872ad9b4c9a51027c73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2e100b31e72548decd6a0f03ebaacd21"><td class="memItemLeft" align="right" valign="top"><a id="a2e100b31e72548decd6a0f03ebaacd21"></a>
-bool&#160;</td><td class="memItemRight" valign="bottom"><b>isValid</b> () const noexcept</td></tr>
+<tr class="memitem:a2e100b31e72548decd6a0f03ebaacd21"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis_1_1_context.html#a2e100b31e72548decd6a0f03ebaacd21">isValid</a> () const noexcept</td></tr>
+<tr class="memdesc:a2e100b31e72548decd6a0f03ebaacd21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Test whether the context is valid.  <a href="#a2e100b31e72548decd6a0f03ebaacd21">More...</a><br /></td></tr>
 <tr class="separator:a2e100b31e72548decd6a0f03ebaacd21"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72196ce6412641cb28ac0b0417eef7d1"><td class="memItemLeft" align="right" valign="top"><a id="a72196ce6412641cb28ac0b0417eef7d1"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>free</b> () noexcept</td></tr>
 <tr class="separator:a72196ce6412641cb28ac0b0417eef7d1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5feb93af9ae1779d82374f2c969a102f"><td class="memItemLeft" align="right" valign="top"><a id="a5feb93af9ae1779d82374f2c969a102f"></a>
-std::string&#160;</td><td class="memItemRight" valign="bottom"><b>errstr</b> () const</td></tr>
+<tr class="memitem:a5feb93af9ae1779d82374f2c969a102f"><td class="memItemLeft" align="right" valign="top">std::string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis_1_1_context.html#a5feb93af9ae1779d82374f2c969a102f">errstr</a> () const</td></tr>
+<tr class="memdesc:a5feb93af9ae1779d82374f2c969a102f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Get the string which describes the error.  <a href="#a5feb93af9ae1779d82374f2c969a102f">More...</a><br /></td></tr>
 <tr class="separator:a5feb93af9ae1779d82374f2c969a102f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
@@ -120,6 +128,165 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>Option</b></td></tr>
 class&#160;</td><td class="memItemRight" valign="bottom"><b>RedisCommand</b></td></tr>
 <tr class="separator:a71bd8ffeaf77c10f916bf4283fd5c025"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><p>An auto-closed redis context. </p>
+</div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="a7f1e6994fa490b87ea16c7af449170a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7f1e6994fa490b87ea16c7af449170a4">&#9670;&nbsp;</a></span>Context()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">kerbal::redis::Context::Context </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct an empty context. </p>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">The</td><td>constructor will never throw any exception. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="a4e1b90f6a1c7b7e997103a0e93fd8fcd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e1b90f6a1c7b7e997103a0e93fd8fcd">&#9670;&nbsp;</a></span>close()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void kerbal::redis::Context::close </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Close the context. </p>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">The</td><td>constructor will never throw any exception. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a5feb93af9ae1779d82374f2c969a102f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5feb93af9ae1779d82374f2c969a102f">&#9670;&nbsp;</a></span>errstr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::string kerbal::redis::Context::errstr </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Get the string which describes the error. </p>
+<dl class="section return"><dt>Returns</dt><dd>Error string </dd></dl>
+
+</div>
+</div>
+<a id="a2e100b31e72548decd6a0f03ebaacd21"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2e100b31e72548decd6a0f03ebaacd21">&#9670;&nbsp;</a></span>isValid()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool kerbal::redis::Context::isValid </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Test whether the context is valid. </p>
+<dl class="section return"><dt>Returns</dt><dd>True if valid, false otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a3c0b57118e55c872ad9b4c9a51027c73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c0b57118e55c872ad9b4c9a51027c73">&#9670;&nbsp;</a></span>operator bool()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">kerbal::redis::Context::operator bool </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Test whether the context is valid. </p>
+<dl class="exception"><dt>Exceptions</dt><dd>
+  <table class="exception">
+    <tr><td class="paramname">The</td><td>constructor will never throw any exception. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>E:/eclipse/cpp/Kerbal/include/kerbal/redis/<a class="el" href="redis__context_8hpp_source.html">redis_context.hpp</a></li>
 </ul>

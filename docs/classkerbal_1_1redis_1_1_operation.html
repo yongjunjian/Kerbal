@@ -104,9 +104,9 @@ template&lt;typename ... Args&gt; </td></tr>
 <tr class="memitem:af018360557d63c00148a76787c5be318"><td class="memItemLeft" align="right" valign="top"><a id="af018360557d63c00148a76787c5be318"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>exists</b> (const <a class="el" href="classkerbal_1_1redis_1_1_context.html">Context</a> &amp;conn, <a class="el" href="classkerbal_1_1redis_1_1_redis_united_string_helper.html">RedisUnitedStringHelper</a> key) const</td></tr>
 <tr class="separator:af018360557d63c00148a76787c5be318"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab57521ed212e8352c80f92b07f372364"><td class="memTemplParams" colspan="2"><a id="ab57521ed212e8352c80f92b07f372364"></a>
-template&lt;typename ... Args&gt; </td></tr>
-<tr class="memitem:ab57521ed212e8352c80f92b07f372364"><td class="memTemplItemLeft" align="right" valign="top">long long&#160;</td><td class="memTemplItemRight" valign="bottom"><b>exists</b> (const <a class="el" href="classkerbal_1_1redis_1_1_context.html">Context</a> &amp;conn, <a class="el" href="classkerbal_1_1redis_1_1_redis_united_string_helper.html">RedisUnitedStringHelper</a> key0, Args &amp;&amp;... args) const</td></tr>
+<tr class="memitem:ab57521ed212e8352c80f92b07f372364"><td class="memTemplParams" colspan="2">template&lt;typename ... Args&gt; </td></tr>
+<tr class="memitem:ab57521ed212e8352c80f92b07f372364"><td class="memTemplItemLeft" align="right" valign="top">long long&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis_1_1_operation.html#ab57521ed212e8352c80f92b07f372364">exists</a> (const <a class="el" href="classkerbal_1_1redis_1_1_context.html">Context</a> &amp;conn, <a class="el" href="classkerbal_1_1redis_1_1_redis_united_string_helper.html">RedisUnitedStringHelper</a> key0, Args &amp;&amp;... args) const</td></tr>
+<tr class="memdesc:ab57521ed212e8352c80f92b07f372364"><td class="mdescLeft">&#160;</td><td class="mdescRight">Check how many objects exists.  <a href="#ab57521ed212e8352c80f92b07f372364">More...</a><br /></td></tr>
 <tr class="separator:ab57521ed212e8352c80f92b07f372364"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7cc45182536c019892fb48c6c8675527"><td class="memItemLeft" align="right" valign="top"><a id="a7cc45182536c019892fb48c6c8675527"></a>
 long long&#160;</td><td class="memItemRight" valign="bottom"><b>pexpire</b> (const <a class="el" href="classkerbal_1_1redis_1_1_context.html">Context</a> &amp;conn, <a class="el" href="classkerbal_1_1redis_1_1_redis_united_string_helper.html">RedisUnitedStringHelper</a> key, const std::chrono::milliseconds &amp;ms)</td></tr>
@@ -177,6 +177,62 @@ template&lt;typename Type , typename ... Args&gt; </td></tr>
 <tr class="memitem:a277a7fb6a17b1d1c794e6d5a8c4a5068"><td class="memTemplItemLeft" align="right" valign="top">static constexpr void&#160;</td><td class="memTemplItemRight" valign="bottom"><b>redis_key_list_type_checker</b> (const Type &amp;, Args &amp;&amp;... args)</td></tr>
 <tr class="separator:a277a7fb6a17b1d1c794e6d5a8c4a5068"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a id="ab57521ed212e8352c80f92b07f372364"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab57521ed212e8352c80f92b07f372364">&#9670;&nbsp;</a></span>exists()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">long long kerbal::redis::Operation::exists </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classkerbal_1_1redis_1_1_context.html">Context</a> &amp;&#160;</td>
+          <td class="paramname"><em>conn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classkerbal_1_1redis_1_1_redis_united_string_helper.html">RedisUnitedStringHelper</a>&#160;</td>
+          <td class="paramname"><em>key0</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Check how many objects exists. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">conn</td><td>Available redis context </td></tr>
+    <tr><td class="paramname">key0</td><td>the first object's key </td></tr>
+    <tr><td class="paramname">args</td><td>the remaining objects' key </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Existed object number. </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
 <li>E:/eclipse/cpp/Kerbal/include/kerbal/redis/<a class="el" href="operation_8hpp_source.html">operation.hpp</a></li>
 </ul>

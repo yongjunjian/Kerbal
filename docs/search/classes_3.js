@@ -1,9 +1,13 @@
 var searchData=
 [
-  ['enable_5fif',['enable_if',['../structkerbal_1_1type__traits_1_1enable__if.html',1,'kerbal::type_traits']]],
-  ['enable_5fif_3c_20true_2c_20tp_20_3e',['enable_if&lt; true, Tp &gt;',['../structkerbal_1_1type__traits_1_1enable__if_3_01true_00_01_tp_01_4.html',1,'kerbal::type_traits']]],
-  ['execute_5fallowed_5ftype',['execute_allowed_type',['../structkerbal_1_1redis_1_1execute__allowed__type.html',1,'kerbal::redis']]],
-  ['execute_5fallowed_5ftype_3c_20false_20_3e',['execute_allowed_type&lt; false &gt;',['../structkerbal_1_1redis_1_1execute__allowed__type_3_01false_01_4.html',1,'kerbal::redis']]],
-  ['execute_5fallowed_5ftype_3c_20true_20_3e',['execute_allowed_type&lt; true &gt;',['../structkerbal_1_1redis_1_1execute__allowed__type_3_01true_01_4.html',1,'kerbal::redis']]],
-  ['execute_5fdisallowed_5ftype',['execute_disallowed_type',['../structkerbal_1_1redis_1_1execute__disallowed__type.html',1,'kerbal::redis']]]
+  ['dbstream',['Dbstream',['../classkerbal_1_1utility_1_1dbstream_1_1_dbstream.html',1,'kerbal::utility::dbstream']]],
+  ['delete_5fcpy_5fand_5fassign',['Delete_cpy_and_assign',['../classkerbal_1_1utility_1_1_delete__cpy__and__assign.html',1,'kerbal::utility']]],
+  ['delete_5fcpy_5fand_5fassign_3c_20functor_3c_20const_20return_5ftype_20_3e_20_3e',['Delete_cpy_and_assign&lt; Functor&lt; const Return_type &gt; &gt;',['../classkerbal_1_1utility_1_1_delete__cpy__and__assign.html',1,'kerbal::utility']]],
+  ['delete_5fcpy_5fand_5fassign_3c_20functor_3c_20double_20_3e_20_3e',['Delete_cpy_and_assign&lt; Functor&lt; double &gt; &gt;',['../classkerbal_1_1utility_1_1_delete__cpy__and__assign.html',1,'kerbal::utility']]],
+  ['delete_5fcpy_5fand_5fassign_3c_20functor_3c_20return_5ftype_20_26_3e_20_3e',['Delete_cpy_and_assign&lt; Functor&lt; Return_type &amp;&gt; &gt;',['../classkerbal_1_1utility_1_1_delete__cpy__and__assign.html',1,'kerbal::utility']]],
+  ['delete_5fcpy_5fand_5fassign_3c_20functor_3c_20return_5ftype_20_3e_20_3e',['Delete_cpy_and_assign&lt; Functor&lt; Return_type &gt; &gt;',['../classkerbal_1_1utility_1_1_delete__cpy__and__assign.html',1,'kerbal::utility']]],
+  ['delete_5fcpy_5fand_5fassign_3c_20functor_3c_20type_20_3e_20_3e',['Delete_cpy_and_assign&lt; Functor&lt; type &gt; &gt;',['../classkerbal_1_1utility_1_1_delete__cpy__and__assign.html',1,'kerbal::utility']]],
+  ['delete_5fcpy_5fand_5fassign_3c_20functor_3c_20void_20_3e_20_3e',['Delete_cpy_and_assign&lt; Functor&lt; void &gt; &gt;',['../classkerbal_1_1utility_1_1_delete__cpy__and__assign.html',1,'kerbal::utility']]],
+  ['delete_5fcpy_5fand_5fassign_3c_20runtime_5ftimer_20_3e',['Delete_cpy_and_assign&lt; runtime_timer &gt;',['../classkerbal_1_1utility_1_1_delete__cpy__and__assign.html',1,'kerbal::utility']]],
+  ['diff_5ftype_5fequal_5fto',['diff_type_equal_to',['../structkerbal_1_1diff__type__equal__to.html',1,'kerbal']]]
 ];

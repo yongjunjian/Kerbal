@@ -43,6 +43,7 @@ var searchData=
   ['redisunitedstringhelper',['RedisUnitedStringHelper',['../classkerbal_1_1redis_1_1_redis_united_string_helper.html',1,'kerbal::redis']]],
   ['reference',['Reference',['../classkerbal_1_1redis_1_1_reference.html',1,'kerbal::redis::Reference&lt; Type &gt;'],['../classkerbal_1_1data__struct_1_1_auto__array.html#a46603d4d6e967a8973f2ebb3a249c8d6',1,'kerbal::data_struct::Auto_array::reference()']]],
   ['referencebase',['ReferenceBase',['../classkerbal_1_1redis_1_1_reference_base.html',1,'kerbal::redis']]],
+  ['replytype',['replyType',['../classkerbal_1_1redis_1_1_auto_free_reply.html#adcc8a2ada58eb1447290a776225bc0a3',1,'kerbal::redis::AutoFreeReply']]],
   ['resize',['resize',['../classkerbal_1_1math_1_1complexor_1_1_complexor.html#a34ac1d36be3c9af0c1bb71a92584d172',1,'kerbal::math::complexor::Complexor']]],
   ['reverse_5fiterator',['reverse_iterator',['../classkerbal_1_1data__struct_1_1_auto__array_1_1reverse__iterator.html',1,'kerbal::data_struct::Auto_array&lt; Tp, N &gt;::reverse_iterator'],['../classkerbal_1_1data__struct_1_1_auto__array.html#af1e8d2ad0c86e3a194c1b76a10a18983',1,'kerbal::data_struct::Auto_array::reverse_iterator()']]],
   ['row',['row',['../classkerbal_1_1data__struct_1_1array__2d_1_1_array__2d.html#a16a8892608fa6518bd789f7873ef4065',1,'kerbal::data_struct::array_2d::Array_2d']]],
