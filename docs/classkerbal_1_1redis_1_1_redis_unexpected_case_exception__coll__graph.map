@@ -1,0 +1,7 @@
+<map id="kerbal::redis::RedisUnexpectedCaseException" name="kerbal::redis::RedisUnexpectedCaseException">
+<area shape="rect" id="node1" title="Exception occurred when hiredis returns an unexpected reply type." alt="" coords="99,261,305,303"/>
+<area shape="rect" id="node2" href="$classkerbal_1_1redis_1_1_redis_exception.html" title="Base class for redis sub&#45;library." alt="" coords="5,185,199,212"/>
+<area shape="rect" id="node3" title="STL class" alt="" coords="50,96,154,123"/>
+<area shape="rect" id="node4" title="STL class" alt="" coords="193,96,273,123"/>
+<area shape="rect" id="node5" title="STL class" alt="" coords="169,5,296,47"/>
+</map>

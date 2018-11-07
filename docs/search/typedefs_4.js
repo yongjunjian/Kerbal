@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['reference',['reference',['../classkerbal_1_1data__struct_1_1_auto__array.html#a46603d4d6e967a8973f2ebb3a249c8d6',1,'kerbal::data_struct::Auto_array']]],
-  ['reverse_5fiterator',['reverse_iterator',['../classkerbal_1_1data__struct_1_1_auto__array.html#af1e8d2ad0c86e3a194c1b76a10a18983',1,'kerbal::data_struct::Auto_array']]]
+  ['equal_5fc_5farray',['equal_c_array',['../classkerbal_1_1data__struct_1_1static__array.html#accfce5fffa6559d270187a5c0619eb14',1,'kerbal::data_struct::static_array']]],
+  ['equal_5fc_5farray_5freference',['equal_c_array_reference',['../classkerbal_1_1data__struct_1_1static__array.html#aa9774073256d86c8b01320ea686dc13f',1,'kerbal::data_struct::static_array']]]
 ];

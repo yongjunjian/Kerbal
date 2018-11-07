@@ -1,0 +1,17 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" href="$classkerbal_1_1utility_1_1nonassignable.html" title=" " alt="" coords="5,333,192,360"/>
+<area shape="rect" id="node2" href="$classkerbal_1_1utility_1_1functor.html" title=" " alt="" coords="268,19,412,61"/>
+<area shape="rect" id="node4" href="$classkerbal_1_1utility_1_1functor.html" title=" " alt="" coords="268,85,412,126"/>
+<area shape="rect" id="node6" href="$structkerbal_1_1data__struct_1_1raw__optional.html" title=" " alt="" coords="262,594,418,635"/>
+<area shape="rect" id="node8" href="$classkerbal_1_1redis__v2_1_1reply.html" title=" " alt="" coords="265,151,415,177"/>
+<area shape="rect" id="node9" href="$classkerbal_1_1utility_1_1functor.html" title=" " alt="" coords="268,202,412,243"/>
+<area shape="rect" id="node10" href="$classkerbal_1_1utility_1_1functor_3_01const_01_type_01_4.html" title=" " alt="" coords="268,267,412,309"/>
+<area shape="rect" id="node11" href="$classkerbal_1_1utility_1_1functor_3_01_type_01_6_4.html" title=" " alt="" coords="268,333,412,374"/>
+<area shape="rect" id="node12" href="$classkerbal_1_1utility_1_1functor_3_01void_01_4.html" title=" " alt="" coords="268,398,412,439"/>
+<area shape="rect" id="node13" href="$structkerbal_1_1utility_1_1object__count.html" title=" " alt="" coords="240,463,440,519"/>
+<area shape="rect" id="node14" href="$classruntime__timer.html" title=" " alt="" coords="289,543,391,569"/>
+<area shape="rect" id="node3" href="$structkerbal_1_1math_1_1randnum_1_1rand__type__between_3_01double_01_4.html" title=" " alt="" coords="488,5,640,61"/>
+<area shape="rect" id="node5" href="$structkerbal_1_1math_1_1randnum_1_1rand__type__between.html" title=" " alt="" coords="488,85,640,141"/>
+<area shape="rect" id="node7" href="$classkerbal_1_1data__struct_1_1optional.html" title=" " alt="" coords="499,594,629,635"/>
+<area shape="rect" id="node15" href="$classkerbal_1_1utility_1_1noncopyable.html" title=" " alt="" coords="10,275,187,301"/>
+</map>

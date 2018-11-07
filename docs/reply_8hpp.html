@@ -1,0 +1,157 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kerbal: /home/peter/git/Kerbal/include/kerbal/redis_v2/reply.hpp 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kerbal
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Kerbal C++ Template Library</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_8010f79c5df94a61fd28c0181602b04d.html">kerbal</a></li><li class="navelem"><a class="el" href="dir_ccaa81d4bae9e9d0c060130a7e4ede5f.html">redis_v2</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#nested-classes">类</a> &#124;
+<a href="#namespaces">命名空间</a> &#124;
+<a href="#enum-members">枚举</a> &#124;
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">reply.hpp 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="textblock"><code>#include &lt;hiredis/hiredis.h&gt;</code><br />
+<code>#include &lt;string&gt;</code><br />
+<code>#include &lt;iostream&gt;</code><br />
+<code>#include &lt;<a class="el" href="compatibility__macro_8hpp_source.html">kerbal/compatibility/compatibility_macro.hpp</a>&gt;</code><br />
+<code>#include &lt;<a class="el" href="noncopyable_8hpp_source.html">kerbal/utility/noncopyable.hpp</a>&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+reply.hpp 的引用(Include)关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="reply_8hpp__incl.png" border="0" usemap="#_2home_2peter_2git_2_kerbal_2include_2kerbal_2redis__v2_2reply_8hpp" alt=""/></div>
+<map name="_2home_2peter_2git_2_kerbal_2include_2kerbal_2redis__v2_2reply_8hpp" id="_2home_2peter_2git_2_kerbal_2include_2kerbal_2redis__v2_2reply_8hpp">
+<area shape="rect" id="node1" title=" " alt="" coords="183,5,333,61"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,117,119,143"/>
+<area shape="rect" id="node3" title=" " alt="" coords="143,117,197,143"/>
+<area shape="rect" id="node4" title=" " alt="" coords="222,117,294,143"/>
+<area shape="rect" id="node5" href="compatibility__macro_8hpp.html" title=" " alt="" coords="319,109,485,151"/>
+<area shape="rect" id="node6" href="noncopyable_8hpp.html" title=" " alt="" coords="510,117,705,143"/>
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
+此图展示该文件直接或间接的被哪些文件引用了:</div>
+<div class="dyncontent">
+<div class="center"><img src="reply_8hpp__dep__incl.png" border="0" usemap="#_2home_2peter_2git_2_kerbal_2include_2kerbal_2redis__v2_2reply_8hppdep" alt=""/></div>
+<map name="_2home_2peter_2git_2_kerbal_2include_2kerbal_2redis__v2_2reply_8hppdep" id="_2home_2peter_2git_2_kerbal_2include_2kerbal_2redis__v2_2reply_8hppdep">
+<area shape="rect" id="node1" title=" " alt="" coords="81,5,232,61"/>
+<area shape="rect" id="node2" href="all_8hpp.html" title=" " alt="" coords="81,421,232,477"/>
+<area shape="rect" id="node3" href="exception_8hpp.html" title=" " alt="" coords="25,109,176,165"/>
+<area shape="rect" id="node4" href="v2_2operation_8hpp.html" title=" " alt="" coords="139,317,289,373"/>
+<area shape="rect" id="node5" href="query_8hpp.html" title=" " alt="" coords="252,213,403,269"/>
+</map>
+</div>
+</div>
+<p><a href="reply_8hpp_source.html">浏览源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+类</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structkerbal_1_1redis__v2_1_1reply__type__traits.html">kerbal::redis_v2::reply_type_traits</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis__v2_1_1reply.html">kerbal::redis_v2::reply</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+命名空间</h2></td></tr>
+<tr class="memitem:namespacekerbal"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekerbal.html">kerbal</a></td></tr>
+<tr class="memdesc:namespacekerbal"><td class="mdescLeft">&#160;</td><td class="mdescRight">kerbal 库 <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacekerbal_1_1redis__v2"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekerbal_1_1redis__v2.html">kerbal::redis_v2</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+枚举</h2></td></tr>
+<tr class="memitem:a1575e05da72a5a37161bb61abd7821cd"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekerbal_1_1redis__v2.html#a1575e05da72a5a37161bb61abd7821cd">kerbal::redis_v2::reply_type</a> { <br />
+&#160;&#160;<a class="el" href="namespacekerbal_1_1redis__v2.html#a1575e05da72a5a37161bb61abd7821cda126b105b8c1aa99bce1c69f748f65735">kerbal::redis_v2::STRING</a> = REDIS_REPLY_STRING, 
+<a class="el" href="namespacekerbal_1_1redis__v2.html#a1575e05da72a5a37161bb61abd7821cdafa013a78856df0021321874de761018c">kerbal::redis_v2::ARRAY</a> = REDIS_REPLY_ARRAY, 
+<a class="el" href="namespacekerbal_1_1redis__v2.html#a1575e05da72a5a37161bb61abd7821cda4265d921641a577387a22396155115d0">kerbal::redis_v2::INTEGER</a> = REDIS_REPLY_INTEGER, 
+<a class="el" href="namespacekerbal_1_1redis__v2.html#a1575e05da72a5a37161bb61abd7821cdaa51881f83d78ae3d68393d4499ffbcfa">kerbal::redis_v2::NIL</a> = REDIS_REPLY_NIL, 
+<br />
+&#160;&#160;<a class="el" href="namespacekerbal_1_1redis__v2.html#a1575e05da72a5a37161bb61abd7821cda8cae7f7a5a42d9bf1e89bcb9c04b5f63">kerbal::redis_v2::STATUS</a> = REDIS_REPLY_STATUS, 
+<a class="el" href="namespacekerbal_1_1redis__v2.html#a1575e05da72a5a37161bb61abd7821cda45beb3981bd7675ef0db3b9c996988e7">kerbal::redis_v2::ERROR</a> = REDIS_REPLY_ERROR
+<br />
+ }</td></tr>
+<tr class="memdesc:a1575e05da72a5a37161bb61abd7821cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">redis 执行结果类型  <a href="namespacekerbal_1_1redis__v2.html#a1575e05da72a5a37161bb61abd7821cd">更多...</a><br /></td></tr>
+<tr class="separator:a1575e05da72a5a37161bb61abd7821cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:a6e34d0accbb00c054012b2089e07f821"><td class="memItemLeft" align="right" valign="top">const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekerbal_1_1redis__v2.html#a6e34d0accbb00c054012b2089e07f821">kerbal::redis_v2::reply_type_name</a> (reply_type type)</td></tr>
+<tr class="separator:a6e34d0accbb00c054012b2089e07f821"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a2b65c747f3d64750f02c342727b203"><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacekerbal_1_1redis__v2.html#a8a2b65c747f3d64750f02c342727b203">kerbal::redis_v2::operator&lt;&lt;</a> (std::ostream &amp;out, reply_type type)</td></tr>
+<tr class="separator:a8a2b65c747f3d64750f02c342727b203"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

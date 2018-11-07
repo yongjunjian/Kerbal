@@ -1,0 +1,387 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kerbal: /home/peter/git/Kerbal/include/kerbal/math/integral.hpp 文件参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kerbal
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Kerbal C++ Template Library</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_d44c64559bbebec7f509842c48db8b23.html">include</a></li><li class="navelem"><a class="el" href="dir_8010f79c5df94a61fd28c0181602b04d.html">kerbal</a></li><li class="navelem"><a class="el" href="dir_e127649c85d08dd6b52d90c694d0b072.html">math</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#func-members">函数</a>  </div>
+  <div class="headertitle">
+<div class="title">integral.hpp 文件参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><a href="integral_8hpp_source.html">浏览源代码.</a></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+函数</h2></td></tr>
+<tr class="memitem:a7a5761b4f1736632b1d7458235f01f06"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="integral_8hpp.html#a7a5761b4f1736632b1d7458235f01f06">dy</a> (double x, double dx, double(*f)(double))</td></tr>
+<tr class="separator:a7a5761b4f1736632b1d7458235f01f06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4d3b56eff2d12086dcdf89747425282"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="integral_8hpp.html#ac4d3b56eff2d12086dcdf89747425282">derivative</a> (double x, double(*f)(double), double dx=0.001)</td></tr>
+<tr class="separator:ac4d3b56eff2d12086dcdf89747425282"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afee22d401339ef2b553d15edac0f5c72"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="integral_8hpp.html#afee22d401339ef2b553d15edac0f5c72">ladder</a> (double a, double b, double dx, double(*f)(double))</td></tr>
+<tr class="separator:afee22d401339ef2b553d15edac0f5c72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d615b066784fa47d179b60afcfe092f"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="integral_8hpp.html#a7d615b066784fa47d179b60afcfe092f">simpson</a> (double a, double b, double dx, double(*f)(double))</td></tr>
+<tr class="separator:a7d615b066784fa47d179b60afcfe092f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0932811cded4edcab51cbb5dbb9f69ab"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="integral_8hpp.html#a0932811cded4edcab51cbb5dbb9f69ab">normal_integral</a> (double b, double dx)</td></tr>
+<tr class="separator:a0932811cded4edcab51cbb5dbb9f69ab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acaed826480c331cf36d20e0e202cab11"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="integral_8hpp.html#acaed826480c331cf36d20e0e202cab11">B</a> (int n)</td></tr>
+<tr class="separator:acaed826480c331cf36d20e0e202cab11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a192e0cb7f704ce438e7bf28f6dc813fe"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="integral_8hpp.html#a192e0cb7f704ce438e7bf28f6dc813fe">Stirling</a> (double x)</td></tr>
+<tr class="separator:a192e0cb7f704ce438e7bf28f6dc813fe"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab1d680d099cb31b64e8e2953d87f12ac"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="integral_8hpp.html#ab1d680d099cb31b64e8e2953d87f12ac">logGamma</a> (double z)</td></tr>
+<tr class="separator:ab1d680d099cb31b64e8e2953d87f12ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac689f6ae4ef00bf99380033bf92221d4"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="integral_8hpp.html#ac689f6ae4ef00bf99380033bf92221d4">Gamma</a> (double z)</td></tr>
+<tr class="separator:ac689f6ae4ef00bf99380033bf92221d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a64af41aa3708aca11ad9633e08a3c68d"><td class="memItemLeft" align="right" valign="top">double&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="integral_8hpp.html#a64af41aa3708aca11ad9633e08a3c68d">Beta</a> (double P, double Q)</td></tr>
+<tr class="separator:a64af41aa3708aca11ad9633e08a3c68d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">函数说明</h2>
+<a id="acaed826480c331cf36d20e0e202cab11"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acaed826480c331cf36d20e0e202cab11">&#9670;&nbsp;</a></span>B()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double B </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a64af41aa3708aca11ad9633e08a3c68d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a64af41aa3708aca11ad9633e08a3c68d">&#9670;&nbsp;</a></span>Beta()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Beta </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>P</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>Q</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac4d3b56eff2d12086dcdf89747425282"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4d3b56eff2d12086dcdf89747425282">&#9670;&nbsp;</a></span>derivative()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double derivative </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double(*)(double)&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dx</em> = <code>0.001</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7a5761b4f1736632b1d7458235f01f06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7a5761b4f1736632b1d7458235f01f06">&#9670;&nbsp;</a></span>dy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double dy </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double(*)(double)&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac689f6ae4ef00bf99380033bf92221d4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac689f6ae4ef00bf99380033bf92221d4">&#9670;&nbsp;</a></span>Gamma()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Gamma </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>z</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afee22d401339ef2b553d15edac0f5c72"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afee22d401339ef2b553d15edac0f5c72">&#9670;&nbsp;</a></span>ladder()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double ladder </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double(*)(double)&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab1d680d099cb31b64e8e2953d87f12ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab1d680d099cb31b64e8e2953d87f12ac">&#9670;&nbsp;</a></span>logGamma()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double logGamma </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>z</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0932811cded4edcab51cbb5dbb9f69ab"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0932811cded4edcab51cbb5dbb9f69ab">&#9670;&nbsp;</a></span>normal_integral()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double normal_integral </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a7d615b066784fa47d179b60afcfe092f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d615b066784fa47d179b60afcfe092f">&#9670;&nbsp;</a></span>simpson()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double simpson </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>dx</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">double(*)(double)&#160;</td>
+          <td class="paramname"><em>f</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a192e0cb7f704ce438e7bf28f6dc813fe"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a192e0cb7f704ce438e7bf28f6dc813fe">&#9670;&nbsp;</a></span>Stirling()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">double Stirling </td>
+          <td>(</td>
+          <td class="paramtype">double&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

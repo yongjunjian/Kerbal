@@ -1,19 +1,15 @@
 var searchData=
 [
-  ['checkisintegertype',['CheckIsIntegerType',['../structkerbal_1_1redis_1_1_check_is_integer_type.html',1,'kerbal::redis']]],
-  ['checkisrealtype',['CheckIsRealType',['../structkerbal_1_1redis_1_1_check_is_real_type.html',1,'kerbal::redis']]],
-  ['clist',['clist',['../classclist.html',1,'']]],
-  ['color_5ft',['Color_t',['../classkerbal_1_1utility_1_1costream_1_1_color__t.html',1,'kerbal::utility::costream']]],
-  ['complex',['Complex',['../classkerbal_1_1math_1_1complex_1_1_complex.html',1,'kerbal::math::complex']]],
-  ['complexor',['Complexor',['../classkerbal_1_1math_1_1complexor_1_1_complexor.html',1,'kerbal::math::complexor']]],
-  ['const_5fiterator',['const_iterator',['../classkerbal_1_1data__struct_1_1_auto__array_1_1const__iterator.html',1,'kerbal::data_struct::Auto_array']]],
-  ['const_5freverse_5fiterator',['const_reverse_iterator',['../classkerbal_1_1data__struct_1_1_auto__array_1_1const__reverse__iterator.html',1,'kerbal::data_struct::Auto_array']]],
-  ['constreference',['ConstReference',['../classkerbal_1_1redis_1_1_const_reference.html',1,'kerbal::redis']]],
-  ['constreferencebase',['ConstReferenceBase',['../classkerbal_1_1redis_1_1_const_reference_base.html',1,'kerbal::redis']]],
-  ['constvariable',['ConstVariable',['../classkerbal_1_1redis_1_1_const_variable.html',1,'kerbal::redis']]],
-  ['context',['Context',['../classkerbal_1_1redis_1_1_context.html',1,'kerbal::redis']]],
-  ['contextpoolapplyfailedexception',['ContextPoolApplyFailedException',['../classkerbal_1_1redis_1_1_context_pool_apply_failed_exception.html',1,'kerbal::redis']]],
-  ['contextpoolinitfailedexception',['ContextPoolInitFailedException',['../classkerbal_1_1redis_1_1_context_pool_init_failed_exception.html',1,'kerbal::redis']]],
-  ['contextpoolreference',['ContextPoolReference',['../classkerbal_1_1redis_1_1_context_pool_reference.html',1,'kerbal::redis']]],
-  ['costream',['costream',['../classkerbal_1_1utility_1_1costream_1_1costream.html',1,'kerbal::utility::costream']]]
+  ['bad_5foptional_5faccess',['bad_optional_access',['../classkerbal_1_1data__struct_1_1bad__optional__access.html',1,'kerbal::data_struct']]],
+  ['basic_5fstring_5fref',['basic_string_ref',['../classkerbal_1_1utility_1_1basic__string__ref.html',1,'kerbal::utility']]],
+  ['binary_5ftype_5fequal_5fto',['binary_type_equal_to',['../structkerbal_1_1algorithm_1_1binary__type__equal__to.html',1,'kerbal::algorithm']]],
+  ['binary_5ftype_5fgreater',['binary_type_greater',['../structkerbal_1_1algorithm_1_1binary__type__greater.html',1,'kerbal::algorithm']]],
+  ['binary_5ftype_5fgreater_5fequal',['binary_type_greater_equal',['../structkerbal_1_1algorithm_1_1binary__type__greater__equal.html',1,'kerbal::algorithm']]],
+  ['binary_5ftype_5fless',['binary_type_less',['../structkerbal_1_1algorithm_1_1binary__type__less.html',1,'kerbal::algorithm']]],
+  ['binary_5ftype_5fless_5fequal',['binary_type_less_equal',['../structkerbal_1_1algorithm_1_1binary__type__less__equal.html',1,'kerbal::algorithm']]],
+  ['binary_5ftype_5fnot_5fequal_5fto',['binary_type_not_equal_to',['../structkerbal_1_1algorithm_1_1binary__type__not__equal__to.html',1,'kerbal::algorithm']]],
+  ['boolreferencebase',['BoolReferenceBase',['../classkerbal_1_1redis_1_1_bool_reference_base.html',1,'kerbal::redis']]],
+  ['boost_5foptional_5ftraits',['boost_optional_traits',['../structkerbal_1_1data__struct_1_1boost__optional__traits.html',1,'kerbal::data_struct']]],
+  ['boost_5foptional_5ftraits_3c_20boost_3a_3aoptional_3c_20type_20_3e_20_3e',['boost_optional_traits&lt; boost::optional&lt; Type &gt; &gt;',['../structkerbal_1_1data__struct_1_1boost__optional__traits.html',1,'kerbal::data_struct']]],
+  ['boost_5foptional_5ftraits_3c_20std_3a_3aoptional_3c_20type_20_3e_20_3e',['boost_optional_traits&lt; std::optional&lt; Type &gt; &gt;',['../structkerbal_1_1data__struct_1_1boost__optional__traits_3_01std_1_1optional_3_01_type_01_4_01_4.html',1,'kerbal::data_struct']]]
 ];

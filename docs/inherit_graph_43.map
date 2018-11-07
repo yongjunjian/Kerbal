@@ -1,0 +1,8 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" href="$classkerbal_1_1redis_1_1_const_reference_base.html" title=" " alt="" coords="5,39,201,80"/>
+<area shape="rect" id="node2" href="$classkerbal_1_1redis_1_1_const_reference.html" title=" " alt="" coords="249,5,445,47"/>
+<area shape="rect" id="node4" href="$classkerbal_1_1redis_1_1_reference_base.html" title=" " alt="" coords="267,71,428,112"/>
+<area shape="rect" id="node3" href="$classkerbal_1_1redis_1_1_const_variable.html" title=" " alt="" coords="496,5,679,47"/>
+<area shape="rect" id="node5" href="$classkerbal_1_1redis_1_1_real_reference_base.html" title=" " alt="" coords="493,71,681,112"/>
+<area shape="rect" id="node6" href="$classkerbal_1_1redis_1_1_integer_reference_base.html" title=" " alt="" coords="729,71,931,112"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="kerbal::redis::RedisNilException" name="kerbal::redis::RedisNilException">
+<area shape="rect" id="node1" title="Exception occurred when try to fetch a non&#45;existent object." alt="" coords="5,155,215,181"/>
+<area shape="rect" id="node2" href="$classkerbal_1_1redis_1_1_redis_exception.html" title="Base class for redis sub&#45;library." alt="" coords="13,80,207,107"/>
+<area shape="rect" id="node3" title="STL class" alt="" coords="58,5,162,32"/>
+</map>

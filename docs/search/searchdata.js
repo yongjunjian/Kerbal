@@ -1,17 +1,18 @@
 var indexSectionsWithContent =
 {
-  0: "abcdefgiklmnoprstuvw~",
-  1: "abcdefilmnorstuv",
-  2: "k",
-  3: "abcdmrstv",
-  4: "abcdefgiklmoprstw~",
-  5: "ckmnprv",
-  6: "ceiprv",
-  7: "f",
-  8: "dnrs",
-  9: "cdfop",
-  10: "c",
-  11: "k"
+  0: "_abcdefghijklmnopqrstuvwxz~",
+  1: "_abcdefhijklmnoqrstuv",
+  2: "bk",
+  3: "abcdefijlmnoqrstuvw",
+  4: "_abcdefghijklmnopqrstuvwz~",
+  5: "_abcdefhijklmnoprstuvx",
+  6: "abcdegikmprstv",
+  7: "cfpr",
+  8: "adefimnrsv",
+  9: "acdflmoprs",
+  10: "ckms",
+  11: "co",
+  12: "k"
 };
 
 var indexSectionNames =
@@ -26,23 +27,25 @@ var indexSectionNames =
   7: "enums",
   8: "enumvalues",
   9: "related",
-  10: "groups",
-  11: "pages"
+  10: "defines",
+  11: "groups",
+  12: "pages"
 };
 
 var indexSectionLabels =
 {
-  0: "All",
-  1: "Classes",
-  2: "Namespaces",
-  3: "Files",
-  4: "Functions",
-  5: "Variables",
-  6: "Typedefs",
-  7: "Enumerations",
-  8: "Enumerator",
-  9: "Friends",
-  10: "Modules",
-  11: "Pages"
+  0: "全部",
+  1: "类",
+  2: "命名空间",
+  3: "文件",
+  4: "函数",
+  5: "变量",
+  6: "类型定义",
+  7: "枚举",
+  8: "枚举值",
+  9: "友元",
+  10: "宏定义",
+  11: "组",
+  12: "页"
 };
 

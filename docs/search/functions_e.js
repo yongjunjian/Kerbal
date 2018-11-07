@@ -1,9 +1,10 @@
 var searchData=
 [
-  ['shrink',['shrink',['../classkerbal_1_1math_1_1complexor_1_1_complexor.html#a191e2bc75dc927c891f9ce1dce459895',1,'kerbal::math::complexor::Complexor']]],
-  ['size',['size',['../classkerbal_1_1data__struct_1_1_auto__array.html#a31533c0e2b7ad49c5829510d2c196fd2',1,'kerbal::data_struct::Auto_array::size()'],['../classkerbal_1_1redis_1_1_list.html#a674925f1619a623471c083531ba37484',1,'kerbal::redis::List::size()']]],
-  ['sub_5fof',['sub_of',['../classkerbal_1_1math_1_1matrix_1_1_matrix.html#a67afe9407d42b0e9d3dbdd8d5a0fee53',1,'kerbal::math::matrix::Matrix']]],
-  ['swap',['swap',['../classkerbal_1_1data__struct_1_1_auto__array.html#a239c444d9c31244db2cfaccc14635923',1,'kerbal::data_struct::Auto_array::swap()'],['../matrix_8hpp.html#a2fe9be2c34e8bbe35c58d7d1b8669b84',1,'std::swap()']]],
-  ['switch_5fcolumns',['switch_columns',['../classkerbal_1_1math_1_1matrix_1_1_matrix.html#ac113c6c2eac177c7d40ba67004c63e38',1,'kerbal::math::matrix::Matrix']]],
-  ['switch_5frows',['switch_rows',['../classkerbal_1_1math_1_1matrix_1_1_matrix.html#adc236eb8d244f45b728fce240b2db4c3',1,'kerbal::math::matrix::Matrix']]]
+  ['next',['next',['../namespacekerbal_1_1algorithm.html#a15d197f991bc848cdca67ef8871353f6',1,'kerbal::algorithm::next(InputIterator it, Distance dist)'],['../namespacekerbal_1_1algorithm.html#a7be64156735e98ddd88c5c48db2b4db3',1,'kerbal::algorithm::next(InputIterator it)']]],
+  ['noncopyable',['noncopyable',['../classkerbal_1_1utility_1_1noncopyable.html#a4f2d0e4b9d6fcafce00612db5a0ac36f',1,'kerbal::utility::noncopyable']]],
+  ['nonrecursive_5fqsort',['nonrecursive_qsort',['../namespacekerbal_1_1algorithm.html#a85e4ee2567e2bab5be379eb26b05f78b',1,'kerbal::algorithm::nonrecursive_qsort(BidirectionalIterator begin, BidirectionalIterator end, CompareFunction cmp)'],['../namespacekerbal_1_1algorithm.html#add394ed54b45a51000e5b945bb2d57c0',1,'kerbal::algorithm::nonrecursive_qsort(BidirectionalIterator begin, BidirectionalIterator end)']]],
+  ['normal_5fintegral',['normal_integral',['../integral_8hpp.html#a0932811cded4edcab51cbb5dbb9f69ab',1,'integral.hpp']]],
+  ['normdist',['normdist',['../namespacekerbal_1_1math_1_1statistics.html#a77d43579c58f8369a5d9847b5cd8d622',1,'kerbal::math::statistics']]],
+  ['normdist_5frand',['normdist_rand',['../namespacekerbal_1_1math_1_1randnum.html#a3571cdf80f5fbad56836534275545472',1,'kerbal::math::randnum']]],
+  ['normdist_5frand_5fpair',['normdist_rand_pair',['../namespacekerbal_1_1math_1_1randnum.html#aace8f78148b2c134b22cf26d52d360e7',1,'kerbal::math::randnum']]]
 ];

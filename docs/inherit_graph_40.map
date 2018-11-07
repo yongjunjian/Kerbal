@@ -1,0 +1,10 @@
+<map id="类继承关系图" name="类继承关系图">
+<area shape="rect" id="node1" title=" " alt="" coords="5,111,52,138"/>
+<area shape="rect" id="node2" href="$structkerbal_1_1redis_1_1_check_is_integer_type.html" title=" " alt="" coords="100,5,291,47"/>
+<area shape="rect" id="node3" href="$structkerbal_1_1redis_1_1_check_is_real_type.html" title=" " alt="" coords="107,71,284,112"/>
+<area shape="rect" id="node4" href="$classkerbal_1_1redis_1_1_list_reference.html" title=" " alt="" coords="104,136,287,177"/>
+<area shape="rect" id="node5" href="$structkerbal_1_1redis_1_1redis__type__traits.html" title=" " alt="" coords="124,201,267,243"/>
+<area shape="rect" id="node6" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01const_01_type_01_6_01_4.html" title=" " alt="" coords="339,136,531,177"/>
+<area shape="rect" id="node7" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01const_01_type_01_4.html" title=" " alt="" coords="345,201,524,243"/>
+<area shape="rect" id="node8" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01_type_01_6_01_4.html" title=" " alt="" coords="357,267,513,308"/>
+</map>

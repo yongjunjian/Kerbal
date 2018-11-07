@@ -1,0 +1,7 @@
+<map id="kerbal::redis::ListConstReferenceBase&lt; Type &gt;" name="kerbal::redis::ListConstReferenceBase&lt; Type &gt;">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,171,80"/>
+<area shape="rect" id="node2" href="$classkerbal_1_1redis_1_1_list_const_reference.html" title=" " alt="" coords="231,5,389,47"/>
+<area shape="rect" id="node3" href="$classkerbal_1_1redis_1_1_list_reference_base.html" title=" " alt="" coords="219,71,401,112"/>
+<area shape="rect" id="node4" href="$classkerbal_1_1redis_1_1_list_real_reference.html" title=" " alt="" coords="449,71,659,112"/>
+<area shape="rect" id="node5" href="$classkerbal_1_1redis_1_1_list_integer_reference.html" title=" " alt="" coords="707,71,869,112"/>
+</map>

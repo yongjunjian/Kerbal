@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['frame_5fstyle',['Frame_style',['../classkerbal_1_1math_1_1matrix_1_1_matrix.html#ac59713e447dc0726788cf7ff182834b3',1,'kerbal::math::matrix::Matrix']]]
+  ['conv_5fsize',['Conv_size',['../classkerbal_1_1math_1_1matrix_1_1_matrix.html#ae9715ea895821ebc6e026f348fbbf55e',1,'kerbal::math::matrix::Matrix']]]
 ];

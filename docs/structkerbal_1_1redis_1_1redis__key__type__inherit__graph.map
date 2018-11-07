@@ -1,0 +1,10 @@
+<map id="kerbal::redis::redis_key_type" name="kerbal::redis::redis_key_type">
+<area shape="rect" id="node1" title=" " alt="" coords="5,169,135,211"/>
+<area shape="rect" id="node2" href="$structkerbal_1_1redis_1_1execute__allowed__type_3_01true_01_4.html" title=" " alt="" coords="183,169,333,211"/>
+<area shape="rect" id="node3" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01char_01_5_4.html" title=" " alt="" coords="413,5,557,47"/>
+<area shape="rect" id="node4" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01char[]_4.html" title=" " alt="" coords="414,71,557,112"/>
+<area shape="rect" id="node5" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01char[_n]_4.html" title=" " alt="" coords="409,136,562,177"/>
+<area shape="rect" id="node6" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01const_01char_01_5_4.html" title=" " alt="" coords="395,201,575,243"/>
+<area shape="rect" id="node7" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01_redis_united_string_helper_01_4.html" title=" " alt="" coords="381,266,589,322"/>
+<area shape="rect" id="node8" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01std_1_1string_01_4.html" title=" " alt="" coords="399,345,571,387"/>
+</map>

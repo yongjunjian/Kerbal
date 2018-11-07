@@ -1,0 +1,5 @@
+<map id="kerbal::redis::RedisCommandExecuteFailedException" name="kerbal::redis::RedisCommandExecuteFailedException">
+<area shape="rect" id="node1" title="Exception occurred when hiredis command execute failed." alt="" coords="5,155,200,196"/>
+<area shape="rect" id="node2" href="$classkerbal_1_1redis_1_1_redis_exception.html" title="Base class for redis sub&#45;library." alt="" coords="6,80,199,107"/>
+<area shape="rect" id="node3" title="STL class" alt="" coords="51,5,155,32"/>
+</map>

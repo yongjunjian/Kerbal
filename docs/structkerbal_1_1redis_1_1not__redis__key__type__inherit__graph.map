@@ -1,0 +1,18 @@
+<map id="kerbal::redis::not_redis_key_type" name="kerbal::redis::not_redis_key_type">
+<area shape="rect" id="node1" title=" " alt="" coords="5,431,124,472"/>
+<area shape="rect" id="node2" href="$structkerbal_1_1redis_1_1execute__allowed__type_3_01false_01_4.html" title=" " alt="" coords="172,397,329,439"/>
+<area shape="rect" id="node16" href="$structkerbal_1_1redis_1_1execute__disallowed__type.html" title=" " alt="" coords="177,463,324,504"/>
+<area shape="rect" id="node3" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01bool_01_4.html" title=" " alt="" coords="400,5,539,47"/>
+<area shape="rect" id="node4" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01char_01_4.html" title=" " alt="" coords="400,71,539,112"/>
+<area shape="rect" id="node5" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01double_01_4.html" title=" " alt="" coords="393,136,545,177"/>
+<area shape="rect" id="node6" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01float_01_4.html" title=" " alt="" coords="400,201,539,243"/>
+<area shape="rect" id="node7" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01int_01_4.html" title=" " alt="" coords="405,267,534,308"/>
+<area shape="rect" id="node8" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01long_01_4.html" title=" " alt="" coords="400,332,539,373"/>
+<area shape="rect" id="node9" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01long_01double_01_4.html" title=" " alt="" coords="379,397,559,439"/>
+<area shape="rect" id="node10" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01long_01long_01_4.html" title=" " alt="" coords="386,463,553,504"/>
+<area shape="rect" id="node11" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01signed_01char_01_4.html" title=" " alt="" coords="399,527,539,583"/>
+<area shape="rect" id="node12" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01unsigned_01char_01_4.html" title=" " alt="" coords="392,607,547,663"/>
+<area shape="rect" id="node13" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01unsigned_01int_01_4.html" title=" " alt="" coords="377,687,561,728"/>
+<area shape="rect" id="node14" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01unsigned_01long_01_4.html" title=" " alt="" coords="392,751,547,807"/>
+<area shape="rect" id="node15" href="$structkerbal_1_1redis_1_1redis__type__traits_3_01unsigned_01long_01long_01_4.html" title=" " alt="" coords="392,831,547,887"/>
+</map>

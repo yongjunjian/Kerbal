@@ -1,0 +1,9 @@
+<map id="kerbal::redis::RedisException" name="kerbal::redis::RedisException">
+<area shape="rect" id="node1" title="Base class for redis sub&#45;library." alt="" coords="157,143,351,170"/>
+<area shape="rect" id="node3" href="$classkerbal_1_1redis_1_1_context_pool_apply_failed_exception.html" title=" " alt="" coords="417,5,590,47"/>
+<area shape="rect" id="node4" href="$classkerbal_1_1redis_1_1_context_pool_init_failed_exception.html" title=" " alt="" coords="417,71,590,112"/>
+<area shape="rect" id="node5" href="$classkerbal_1_1redis_1_1_redis_command_execute_failed_exception.html" title="Exception occurred when hiredis command execute failed." alt="" coords="406,136,601,177"/>
+<area shape="rect" id="node6" href="$classkerbal_1_1redis_1_1_redis_nil_exception.html" title="Exception occurred when try to fetch a non&#45;existent object." alt="" coords="399,202,608,229"/>
+<area shape="rect" id="node7" href="$classkerbal_1_1redis_1_1_redis_unexpected_case_exception.html" title="Exception occurred when hiredis returns an unexpected reply type." alt="" coords="401,253,606,295"/>
+<area shape="rect" id="node2" title="STL class" alt="" coords="5,143,109,170"/>
+</map>

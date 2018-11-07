@@ -1,0 +1,588 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kerbal: kerbal::data_struct::static_stack&lt; Tp, N &gt; 模板类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kerbal
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Kerbal C++ Template Library</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacekerbal.html">kerbal</a></li><li class="navelem"><a class="el" href="namespacekerbal_1_1data__struct.html">data_struct</a></li><li class="navelem"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">static_stack</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-types">Public 类型</a> &#124;
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="classkerbal_1_1data__struct_1_1static__stack-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">kerbal::data_struct::static_stack&lt; Tp, N &gt; 模板类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p>Stack with flexible length that stored on automatic storage duration  
+ <a href="classkerbal_1_1data__struct_1_1static__stack.html#details">更多...</a></p>
+
+<p><code>#include &lt;<a class="el" href="static__stack_8hpp_source.html">static_stack.hpp</a>&gt;</code></p>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public 类型</h2></td></tr>
+<tr class="memitem:ac83f737f8f181e36550ef7a01394ac9d"><td class="memItemLeft" align="right" valign="top">typedef Tp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#ac83f737f8f181e36550ef7a01394ac9d">value_type</a></td></tr>
+<tr class="separator:ac83f737f8f181e36550ef7a01394ac9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a336452c8b0b398855ad3d69f9f6403bd"><td class="memItemLeft" align="right" valign="top">typedef const Tp&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a336452c8b0b398855ad3d69f9f6403bd">const_type</a></td></tr>
+<tr class="separator:a336452c8b0b398855ad3d69f9f6403bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b97ad1aa71d6509f53bb90fdbcea3e5"><td class="memItemLeft" align="right" valign="top">typedef Tp &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a2b97ad1aa71d6509f53bb90fdbcea3e5">reference</a></td></tr>
+<tr class="separator:a2b97ad1aa71d6509f53bb90fdbcea3e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a01e942ddfc3044a46e4fdbe21543b468"><td class="memItemLeft" align="right" valign="top">typedef const Tp &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a01e942ddfc3044a46e4fdbe21543b468">const_reference</a></td></tr>
+<tr class="separator:a01e942ddfc3044a46e4fdbe21543b468"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34887c1023a5c817befc6ba5a3ba0dac"><td class="memItemLeft" align="right" valign="top">typedef Tp *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a34887c1023a5c817befc6ba5a3ba0dac">pointer</a></td></tr>
+<tr class="separator:a34887c1023a5c817befc6ba5a3ba0dac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37c2a98dc404b381a6f197cb517a04d9"><td class="memItemLeft" align="right" valign="top">typedef const Tp *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a37c2a98dc404b381a6f197cb517a04d9">const_pointer</a></td></tr>
+<tr class="separator:a37c2a98dc404b381a6f197cb517a04d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a2967f4339e7863c66b162fd9c43520af"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a2967f4339e7863c66b162fd9c43520af">static_stack</a> ()</td></tr>
+<tr class="separator:a2967f4339e7863c66b162fd9c43520af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa2c11597da89809cc5aecc03eb83e41d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#aa2c11597da89809cc5aecc03eb83e41d">static_stack</a> (std::initializer_list&lt; <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#ac83f737f8f181e36550ef7a01394ac9d">value_type</a> &gt; src)</td></tr>
+<tr class="separator:aa2c11597da89809cc5aecc03eb83e41d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5013f0f1f9324c23b6582b1046106898"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">static_stack</a> &amp;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a5013f0f1f9324c23b6582b1046106898">operator=</a> (const <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">static_stack</a> &amp;src)</td></tr>
+<tr class="separator:a5013f0f1f9324c23b6582b1046106898"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bd9565ac91389064134ae871765b6a3"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a3bd9565ac91389064134ae871765b6a3">push</a> (const <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#ac83f737f8f181e36550ef7a01394ac9d">value_type</a> &amp;val)</td></tr>
+<tr class="separator:a3bd9565ac91389064134ae871765b6a3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af91bf0be3e1511d3633fd4a549652105"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#af91bf0be3e1511d3633fd4a549652105">pop</a> ()</td></tr>
+<tr class="separator:af91bf0be3e1511d3633fd4a549652105"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2858bb3b8416a5cce7726d19c182fb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#ac2858bb3b8416a5cce7726d19c182fb2">clear</a> ()</td></tr>
+<tr class="separator:ac2858bb3b8416a5cce7726d19c182fb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd085f6e1ac6014b4c56592a25990998"><td class="memItemLeft" align="right" valign="top">size_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#afd085f6e1ac6014b4c56592a25990998">size</a> () const</td></tr>
+<tr class="separator:afd085f6e1ac6014b4c56592a25990998"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad497d089dbc8e0a30a4e54d493749182"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#ad497d089dbc8e0a30a4e54d493749182">empty</a> () const</td></tr>
+<tr class="separator:ad497d089dbc8e0a30a4e54d493749182"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21b6afc13dfb79552625d7a2a2d08887"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a21b6afc13dfb79552625d7a2a2d08887">full</a> () const</td></tr>
+<tr class="separator:a21b6afc13dfb79552625d7a2a2d08887"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abcfb5e213c0cca01d5b4f4c4eb1b8723"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a2b97ad1aa71d6509f53bb90fdbcea3e5">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#abcfb5e213c0cca01d5b4f4c4eb1b8723">top</a> ()</td></tr>
+<tr class="separator:abcfb5e213c0cca01d5b4f4c4eb1b8723"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72395771dd4e41a9b087df9d6295348d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a01e942ddfc3044a46e4fdbe21543b468">const_reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a72395771dd4e41a9b087df9d6295348d">top</a> () const</td></tr>
+<tr class="separator:a72395771dd4e41a9b087df9d6295348d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a246024be49627a20b4df19398c984dc4"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a246024be49627a20b4df19398c984dc4">swap</a> (<a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">static_stack</a> &amp;with)</td></tr>
+<tr class="separator:a246024be49627a20b4df19398c984dc4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga229b846301d1bd06f641f8d7c335f16a"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__compare.html#ga229b846301d1bd06f641f8d7c335f16a">operator==</a> (const <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">static_stack</a> &amp;with) const</td></tr>
+<tr class="separator:ga229b846301d1bd06f641f8d7c335f16a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gaa75962381160dabb1ae3aa5bd1b6d046"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__compare.html#gaa75962381160dabb1ae3aa5bd1b6d046">operator!=</a> (const <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">static_stack</a> &amp;with) const</td></tr>
+<tr class="separator:gaa75962381160dabb1ae3aa5bd1b6d046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ga59557b3a473b6298f99a488110e7ffce"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__compare.html#ga59557b3a473b6298f99a488110e7ffce">operator&lt;</a> (const <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">static_stack</a> &amp;with) const</td></tr>
+<tr class="separator:ga59557b3a473b6298f99a488110e7ffce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gad8d37ca6899daf1256231cad36aedf29"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__compare.html#gad8d37ca6899daf1256231cad36aedf29">operator&lt;=</a> (const <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">static_stack</a> &amp;with) const</td></tr>
+<tr class="separator:gad8d37ca6899daf1256231cad36aedf29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gada6590120430215406c7054ab653df83"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__compare.html#gada6590120430215406c7054ab653df83">operator&gt;</a> (const <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">static_stack</a> &amp;with) const</td></tr>
+<tr class="separator:gada6590120430215406c7054ab653df83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:gafe6ecc4189df3c47d52572c0e21bd3ef"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="group__compare.html#gafe6ecc4189df3c47d52572c0e21bd3ef">operator&gt;=</a> (const <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">static_stack</a> &amp;with) const</td></tr>
+<tr class="separator:gafe6ecc4189df3c47d52572c0e21bd3ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<a name="details" id="details"></a><h2 class="groupheader">详细描述</h2>
+<div class="textblock"><h3>template&lt;typename Tp, size_t N&gt;<br />
+class kerbal::data_struct::static_stack&lt; Tp, N &gt;</h3>
+
+<p class="">Stack with flexible length that stored on automatic storage duration </p>
+<p class="">The class is an encapsulation class of stack that could be stored on automatic storage duration. It is more effective than std::stack because std::stack store elements on heap storage duration (that's required memory allocate and deallocate). </p><dl class="tparams"><dt>模板参数</dt><dd>
+  <table class="tparams">
+    <tr><td class="paramname">Tp</td><td>Type of the elements. </td></tr>
+    <tr><td class="paramname">N</td><td>The maximum number of elements that the stack can hold. </td></tr>
+  </table>
+  </dd>
+</dl>
+</div><h2 class="groupheader">成员类型定义说明</h2>
+<a id="a37c2a98dc404b381a6f197cb517a04d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37c2a98dc404b381a6f197cb517a04d9">&#9670;&nbsp;</a></span>const_pointer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef const Tp* <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::<a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a37c2a98dc404b381a6f197cb517a04d9">const_pointer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a01e942ddfc3044a46e4fdbe21543b468"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a01e942ddfc3044a46e4fdbe21543b468">&#9670;&nbsp;</a></span>const_reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef const Tp&amp; <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::<a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a01e942ddfc3044a46e4fdbe21543b468">const_reference</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a336452c8b0b398855ad3d69f9f6403bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a336452c8b0b398855ad3d69f9f6403bd">&#9670;&nbsp;</a></span>const_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef const Tp <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::<a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a336452c8b0b398855ad3d69f9f6403bd">const_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a34887c1023a5c817befc6ba5a3ba0dac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34887c1023a5c817befc6ba5a3ba0dac">&#9670;&nbsp;</a></span>pointer</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef Tp* <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::<a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a34887c1023a5c817befc6ba5a3ba0dac">pointer</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2b97ad1aa71d6509f53bb90fdbcea3e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2b97ad1aa71d6509f53bb90fdbcea3e5">&#9670;&nbsp;</a></span>reference</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef Tp&amp; <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::<a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a2b97ad1aa71d6509f53bb90fdbcea3e5">reference</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac83f737f8f181e36550ef7a01394ac9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac83f737f8f181e36550ef7a01394ac9d">&#9670;&nbsp;</a></span>value_type</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">typedef Tp <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::<a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#ac83f737f8f181e36550ef7a01394ac9d">value_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a2967f4339e7863c66b162fd9c43520af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2967f4339e7863c66b162fd9c43520af">&#9670;&nbsp;</a></span>static_stack() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::<a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">static_stack</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa2c11597da89809cc5aecc03eb83e41d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa2c11597da89809cc5aecc03eb83e41d">&#9670;&nbsp;</a></span>static_stack() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::<a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">static_stack</a> </td>
+          <td>(</td>
+          <td class="paramtype">std::initializer_list&lt; <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#ac83f737f8f181e36550ef7a01394ac9d">value_type</a> &gt;&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="ac2858bb3b8416a5cce7726d19c182fb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2858bb3b8416a5cce7726d19c182fb2">&#9670;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ad497d089dbc8e0a30a4e54d493749182"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad497d089dbc8e0a30a4e54d493749182">&#9670;&nbsp;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::empty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a21b6afc13dfb79552625d7a2a2d08887"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21b6afc13dfb79552625d7a2a2d08887">&#9670;&nbsp;</a></span>full()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::full </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5013f0f1f9324c23b6582b1046106898"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5013f0f1f9324c23b6582b1046106898">&#9670;&nbsp;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">static_stack</a>&amp; <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">static_stack</a>&lt; Tp, N &gt; &amp;&#160;</td>
+          <td class="paramname"><em>src</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af91bf0be3e1511d3633fd4a549652105"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af91bf0be3e1511d3633fd4a549652105">&#9670;&nbsp;</a></span>pop()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::pop </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3bd9565ac91389064134ae871765b6a3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bd9565ac91389064134ae871765b6a3">&#9670;&nbsp;</a></span>push()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::push </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#ac83f737f8f181e36550ef7a01394ac9d">value_type</a> &amp;&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afd085f6e1ac6014b4c56592a25990998"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd085f6e1ac6014b4c56592a25990998">&#9670;&nbsp;</a></span>size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">size_t <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a246024be49627a20b4df19398c984dc4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a246024be49627a20b4df19398c984dc4">&#9670;&nbsp;</a></span>swap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">void <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::swap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">static_stack</a>&lt; Tp, N &gt; &amp;&#160;</td>
+          <td class="paramname"><em>with</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abcfb5e213c0cca01d5b4f4c4eb1b8723"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abcfb5e213c0cca01d5b4f4c4eb1b8723">&#9670;&nbsp;</a></span>top() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a2b97ad1aa71d6509f53bb90fdbcea3e5">reference</a> <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::top </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a72395771dd4e41a9b087df9d6295348d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72395771dd4e41a9b087df9d6295348d">&#9670;&nbsp;</a></span>top() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Tp , size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html#a01e942ddfc3044a46e4fdbe21543b468">const_reference</a> <a class="el" href="classkerbal_1_1data__struct_1_1static__stack.html">kerbal::data_struct::static_stack</a>&lt; Tp, N &gt;::top </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>/home/peter/git/Kerbal/include/kerbal/data_struct/<a class="el" href="static__stack_8hpp_source.html">static_stack.hpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>

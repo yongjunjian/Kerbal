@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['_7eauto_5farray',['~Auto_array',['../classkerbal_1_1data__struct_1_1_auto__array.html#ab3f17085bb649644245d359fc409a396',1,'kerbal::data_struct::Auto_array']]],
-  ['_7ematrix',['~Matrix',['../classkerbal_1_1math_1_1matrix_1_1_matrix.html#acac95db2778e221b2096fb431020aa8a',1,'kerbal::math::matrix::Matrix']]]
+  ['quac_5fequ',['quac_equ',['../namespacekerbal_1_1math_1_1complex.html#a6d8865cd3cd17b5b3481a1b66691279b',1,'kerbal::math::complex']]],
+  ['query',['query',['../classkerbal_1_1redis__v2_1_1query.html#a4be43f544c0e14d31c2220dc26f28594',1,'kerbal::redis_v2::query::query()'],['../classkerbal_1_1redis__v2_1_1query.html#af6814bf9f7345bf3bc22205a4e888eeb',1,'kerbal::redis_v2::query::query(const char *s)'],['../classkerbal_1_1redis__v2_1_1query.html#aaebff9336498b550d3ac236dfe069ca2',1,'kerbal::redis_v2::query::query(const std::string &amp;s)']]]
 ];

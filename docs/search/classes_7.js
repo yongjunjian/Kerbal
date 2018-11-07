@@ -1,11 +1,5 @@
 var searchData=
 [
-  ['list',['List',['../classkerbal_1_1redis_1_1_list.html',1,'kerbal::redis']]],
-  ['listconstreference',['ListConstReference',['../classkerbal_1_1redis_1_1_list_const_reference.html',1,'kerbal::redis']]],
-  ['listconstreferencebase',['ListConstReferenceBase',['../classkerbal_1_1redis_1_1_list_const_reference_base.html',1,'kerbal::redis']]],
-  ['listintegerreference',['ListIntegerReference',['../classkerbal_1_1redis_1_1_list_integer_reference.html',1,'kerbal::redis']]],
-  ['listiterator',['ListIterator',['../classkerbal_1_1redis_1_1_list_iterator.html',1,'kerbal::redis']]],
-  ['listrealreference',['ListRealReference',['../classkerbal_1_1redis_1_1_list_real_reference.html',1,'kerbal::redis']]],
-  ['listreference',['ListReference',['../classkerbal_1_1redis_1_1_list_reference.html',1,'kerbal::redis']]],
-  ['listreferencebase',['ListReferenceBase',['../classkerbal_1_1redis_1_1_list_reference_base.html',1,'kerbal::redis']]]
+  ['hash',['hash',['../structkerbal_1_1data__struct_1_1hash.html',1,'kerbal::data_struct::hash&lt; Type, BindHash, NulloptHash &gt;'],['../classstd_1_1hash.html',1,'std::hash&lt; Type &gt;']]],
+  ['hash_3c_20optional_3c_20type_20_3e_2c_20bindhash_2c_20nullopthash_20_3e',['hash&lt; optional&lt; Type &gt;, BindHash, NulloptHash &gt;',['../structkerbal_1_1data__struct_1_1hash_3_01optional_3_01_type_01_4_00_01_bind_hash_00_01_nullopt_hash_01_4.html',1,'kerbal::data_struct']]]
 ];

@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['max_5fsize',['max_size',['../classkerbal_1_1data__struct_1_1_auto__array.html#a588f185f214fed638dd2ba98e2639ae1',1,'kerbal::data_struct::Auto_array']]]
+  ['background',['background',['../classkerbal_1_1utility_1_1costream_1_1costream.html#a50fab8938f6fdd80963156316798f0cb',1,'kerbal::utility::costream::costream']]],
+  ['binded_5fconn',['binded_conn',['../classkerbal_1_1redis__v2_1_1operation.html#ac30608705d5a57a8389952c6e448a08c',1,'kerbal::redis_v2::operation']]]
 ];

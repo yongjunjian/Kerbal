@@ -1,0 +1,427 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.15"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Kerbal: kerbal::redis_v2::query类 参考</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td id="projectalign" style="padding-left: 0.5em;">
+   <div id="projectname">Kerbal
+   &#160;<span id="projectnumber">1.0</span>
+   </div>
+   <div id="projectbrief">Kerbal C++ Template Library</div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- 制作者 Doxygen 1.8.15 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+var searchBox = new SearchBox("searchBox", "search",false,'搜索');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:cf05388f2679ee054f2beb29a391d25f4e673ac3&amp;dn=gpl-2.0.txt GPL-v2 */
+$(function() {
+  initMenu('',true,false,'search.php','搜索');
+  $(document).ready(function() { init_search(); });
+});
+/* @license-end */</script>
+<div id="main-nav"></div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="namespacekerbal.html">kerbal</a></li><li class="navelem"><a class="el" href="namespacekerbal_1_1redis__v2.html">redis_v2</a></li><li class="navelem"><a class="el" href="classkerbal_1_1redis__v2_1_1query.html">query</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="summary">
+<a href="#pub-methods">Public 成员函数</a> &#124;
+<a href="#pub-static-methods">静态 Public 成员函数</a> &#124;
+<a href="classkerbal_1_1redis__v2_1_1query-members.html">所有成员列表</a>  </div>
+  <div class="headertitle">
+<div class="title">kerbal::redis_v2::query类 参考</div>  </div>
+</div><!--header-->
+<div class="contents">
+
+<p><code>#include &lt;<a class="el" href="query_8hpp_source.html">query.hpp</a>&gt;</code></p>
+<div class="dynheader">
+类 kerbal::redis_v2::query 继承关系图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkerbal_1_1redis__v2_1_1query__inherit__graph.png" border="0" usemap="#kerbal_1_1redis__v2_1_1query_inherit__map" alt="Inheritance graph"/></div>
+<map name="kerbal_1_1redis__v2_1_1query_inherit__map" id="kerbal_1_1redis__v2_1_1query_inherit__map">
+<area shape="rect" id="node1" title=" " alt="" coords="11,408,165,435"/>
+<area shape="rect" id="node2" title="STL class" alt="" coords="25,333,151,360"/>
+<area shape="rect" id="node3" title="STL class" alt="" coords="5,244,171,285"/>
+<area shape="rect" id="node4" title="STL class" alt="" coords="21,155,155,196"/>
+<area shape="rect" id="node5" title="STL class" alt="" coords="11,80,165,107"/>
+<area shape="rect" id="node6" title="STL class" alt="" coords="38,5,138,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">图例</a>]</span></center></div>
+<div class="dynheader">
+kerbal::redis_v2::query 的协作图:</div>
+<div class="dyncontent">
+<div class="center"><img src="classkerbal_1_1redis__v2_1_1query__coll__graph.png" border="0" usemap="#kerbal_1_1redis__v2_1_1query_coll__map" alt="Collaboration graph"/></div>
+<map name="kerbal_1_1redis__v2_1_1query_coll__map" id="kerbal_1_1redis__v2_1_1query_coll__map">
+<area shape="rect" id="node1" title=" " alt="" coords="11,408,165,435"/>
+<area shape="rect" id="node2" title="STL class" alt="" coords="25,333,151,360"/>
+<area shape="rect" id="node3" title="STL class" alt="" coords="5,244,171,285"/>
+<area shape="rect" id="node4" title="STL class" alt="" coords="21,155,155,196"/>
+<area shape="rect" id="node5" title="STL class" alt="" coords="11,80,165,107"/>
+<area shape="rect" id="node6" title="STL class" alt="" coords="38,5,138,32"/>
+</map>
+<center><span class="legend">[<a href="graph_legend.html">图例</a>]</span></center></div>
+<table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
+Public 成员函数</h2></td></tr>
+<tr class="memitem:a4be43f544c0e14d31c2220dc26f28594"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis__v2_1_1query.html#a4be43f544c0e14d31c2220dc26f28594">query</a> ()</td></tr>
+<tr class="separator:a4be43f544c0e14d31c2220dc26f28594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6814bf9f7345bf3bc22205a4e888eeb"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis__v2_1_1query.html#af6814bf9f7345bf3bc22205a4e888eeb">query</a> (const char *s)</td></tr>
+<tr class="separator:af6814bf9f7345bf3bc22205a4e888eeb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaebff9336498b550d3ac236dfe069ca2"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis__v2_1_1query.html#aaebff9336498b550d3ac236dfe069ca2">query</a> (const std::string &amp;s)</td></tr>
+<tr class="separator:aaebff9336498b550d3ac236dfe069ca2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bd6787cf9666fcb1b2874b122c5edf3"><td class="memTemplParams" colspan="2">template&lt;typename ... Args&gt; </td></tr>
+<tr class="memitem:a5bd6787cf9666fcb1b2874b122c5edf3"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structkerbal_1_1type__traits_1_1enable__if.html">kerbal::type_traits::enable_if</a>&lt; <a class="el" href="structkerbal_1_1redis__v2_1_1is__redis__execute__list.html">is_redis_execute_list</a>&lt; Args... &gt;::value, <a class="el" href="classkerbal_1_1redis__v2_1_1reply.html">reply</a> &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis__v2_1_1query.html#a5bd6787cf9666fcb1b2874b122c5edf3">execute</a> (const <a class="el" href="classkerbal_1_1redis__v2_1_1connection.html">connection</a> &amp;conn, Args &amp;&amp;...args)</td></tr>
+<tr class="separator:a5bd6787cf9666fcb1b2874b122c5edf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-methods"></a>
+静态 Public 成员函数</h2></td></tr>
+<tr class="memitem:ab9ad25cd7a57097d7de5cd32df39ce9e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ab9ad25cd7a57097d7de5cd32df39ce9e"><td class="memTemplItemLeft" align="right" valign="top">static <a class="el" href="compatibility__macro_8hpp.html#a03bc70fc62972c4de26ad9894e2fae3b">KERBAL_CONSTEXPR</a> const T &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis__v2_1_1query.html#ab9ad25cd7a57097d7de5cd32df39ce9e">cast_to_va_arg_compatible_type</a> (const T &amp;t) <a class="el" href="compatibility__macro_8hpp.html#a9dd753f7d319cf907cf01f744c5d2904">KERBAL_NOEXCEPT</a></td></tr>
+<tr class="separator:ab9ad25cd7a57097d7de5cd32df39ce9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6cb39d3ec08ab488d1e4b938707ad57e"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis__v2_1_1query.html#a6cb39d3ec08ab488d1e4b938707ad57e">cast_to_va_arg_compatible_type</a> (const std::string &amp;t) <a class="el" href="compatibility__macro_8hpp.html#a9dd753f7d319cf907cf01f744c5d2904">KERBAL_NOEXCEPT</a></td></tr>
+<tr class="separator:a6cb39d3ec08ab488d1e4b938707ad57e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf7026e5a92fd7e47746b3e1ba0dfc6b"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis__v2_1_1query.html#abf7026e5a92fd7e47746b3e1ba0dfc6b">cast_to_va_arg_compatible_type</a> (const <a class="el" href="namespacekerbal_1_1utility.html#a2a38e95e7558ae327e7f5c8d9a44de2a">kerbal::utility::string_ref</a> &amp;t)</td></tr>
+<tr class="separator:abf7026e5a92fd7e47746b3e1ba0dfc6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff3062ed8ab82357e4e8f9f174d9c16f"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aff3062ed8ab82357e4e8f9f174d9c16f"><td class="memTemplItemLeft" align="right" valign="top">static constexpr T &amp;&amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis__v2_1_1query.html#aff3062ed8ab82357e4e8f9f174d9c16f">cast_to_va_arg_compatible_type</a> (T &amp;&amp;t) noexcept</td></tr>
+<tr class="separator:aff3062ed8ab82357e4e8f9f174d9c16f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48e8593f1ace5f6f5ef4c791f5706e45"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a48e8593f1ace5f6f5ef4c791f5706e45"><td class="memTemplItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis__v2_1_1query.html#a48e8593f1ace5f6f5ef4c791f5706e45">cast_to_va_arg_compatible_type</a> (std::string &amp;&amp;t) noexcept</td></tr>
+<tr class="separator:a48e8593f1ace5f6f5ef4c791f5706e45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac74077aecf05f77169d34677400eaca7"><td class="memItemLeft" align="right" valign="top">static const char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classkerbal_1_1redis__v2_1_1query.html#ac74077aecf05f77169d34677400eaca7">cast_to_va_arg_compatible_type</a> (<a class="el" href="namespacekerbal_1_1utility.html#a2a38e95e7558ae327e7f5c8d9a44de2a">kerbal::utility::string_ref</a> &amp;&amp;t)</td></tr>
+<tr class="separator:ac74077aecf05f77169d34677400eaca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table>
+<h2 class="groupheader">构造及析构函数说明</h2>
+<a id="a4be43f544c0e14d31c2220dc26f28594"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4be43f544c0e14d31c2220dc26f28594">&#9670;&nbsp;</a></span>query() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">kerbal::redis_v2::query::query </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af6814bf9f7345bf3bc22205a4e888eeb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6814bf9f7345bf3bc22205a4e888eeb">&#9670;&nbsp;</a></span>query() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">kerbal::redis_v2::query::query </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaebff9336498b550d3ac236dfe069ca2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaebff9336498b550d3ac236dfe069ca2">&#9670;&nbsp;</a></span>query() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">kerbal::redis_v2::query::query </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">成员函数说明</h2>
+<a id="ab9ad25cd7a57097d7de5cd32df39ce9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab9ad25cd7a57097d7de5cd32df39ce9e">&#9670;&nbsp;</a></span>cast_to_va_arg_compatible_type() <span class="overload">[1/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static <a class="el" href="compatibility__macro_8hpp.html#a03bc70fc62972c4de26ad9894e2fae3b">KERBAL_CONSTEXPR</a> const T&amp; kerbal::redis_v2::query::cast_to_va_arg_compatible_type </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6cb39d3ec08ab488d1e4b938707ad57e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6cb39d3ec08ab488d1e4b938707ad57e">&#9670;&nbsp;</a></span>cast_to_va_arg_compatible_type() <span class="overload">[2/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const char* kerbal::redis_v2::query::cast_to_va_arg_compatible_type </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abf7026e5a92fd7e47746b3e1ba0dfc6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf7026e5a92fd7e47746b3e1ba0dfc6b">&#9670;&nbsp;</a></span>cast_to_va_arg_compatible_type() <span class="overload">[3/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const char* kerbal::redis_v2::query::cast_to_va_arg_compatible_type </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="namespacekerbal_1_1utility.html#a2a38e95e7558ae327e7f5c8d9a44de2a">kerbal::utility::string_ref</a> &amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff3062ed8ab82357e4e8f9f174d9c16f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff3062ed8ab82357e4e8f9f174d9c16f">&#9670;&nbsp;</a></span>cast_to_va_arg_compatible_type() <span class="overload">[4/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static constexpr T&amp;&amp; kerbal::redis_v2::query::cast_to_va_arg_compatible_type </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a48e8593f1ace5f6f5ef4c791f5706e45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48e8593f1ace5f6f5ef4c791f5706e45">&#9670;&nbsp;</a></span>cast_to_va_arg_compatible_type() <span class="overload">[5/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const char* kerbal::redis_v2::query::cast_to_va_arg_compatible_type </td>
+          <td>(</td>
+          <td class="paramtype">std::string &amp;&amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac74077aecf05f77169d34677400eaca7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac74077aecf05f77169d34677400eaca7">&#9670;&nbsp;</a></span>cast_to_va_arg_compatible_type() <span class="overload">[6/6]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">static const char* kerbal::redis_v2::query::cast_to_va_arg_compatible_type </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacekerbal_1_1utility.html#a2a38e95e7558ae327e7f5c8d9a44de2a">kerbal::utility::string_ref</a> &amp;&amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5bd6787cf9666fcb1b2874b122c5edf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bd6787cf9666fcb1b2874b122c5edf3">&#9670;&nbsp;</a></span>execute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structkerbal_1_1type__traits_1_1enable__if.html">kerbal::type_traits::enable_if</a>&lt;<a class="el" href="structkerbal_1_1redis__v2_1_1is__redis__execute__list.html">is_redis_execute_list</a>&lt;Args...&gt;::value, <a class="el" href="classkerbal_1_1redis__v2_1_1reply.html">reply</a>&gt;::type kerbal::redis_v2::query::execute </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classkerbal_1_1redis__v2_1_1connection.html">connection</a> &amp;&#160;</td>
+          <td class="paramname"><em>conn</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<hr/>该类的文档由以下文件生成:<ul>
+<li>/home/peter/git/Kerbal/include/kerbal/redis_v2/<a class="el" href="query_8hpp_source.html">query.hpp</a></li>
+</ul>
+</div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+制作者 &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.15
+</small></address>
+</body>
+</html>
